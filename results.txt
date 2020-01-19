@@ -1,0 +1,38 @@
+Texas State University - San Marcos
+QC11 32 - 6
+QC9 37 - 8
+Oklahoma State University
+QC9 35 - 11
+Michigan Quidditch Team
+QC9 30 - 4
+Maryland Quidditch
+QC12 32 - 5
+QC11 31 - 4
+Lone Star Quidditch Club
+WC8 33 - 1
+Kansas Quidditch
+QC11 31 - 6
+Bowling Green State University
+QC9 33 - 5
+Ball State Cardinals
+QC9 31 - 8
+
+
+QC13 - 2019 - 2020
+QC12 - 2018 - 2019
+QC11 - 2017 - 2018
+QC10 - 2016 - 2017
+QC9  - 2015 - 2016
+WC8  - 2014 - 2015
+WCVII- 2013 - 2014
+
+Texas State University - San Marcos QC11 32 - 6
+Texas State University - San Marcos QC10 37 - 8
+Oklahoma State University QC9 35 - 11
+Michigan Quidditch Team QC9 30 - 4
+Maryland Quidditch QC12 32 - 5
+Maryland Quidditch QC11 31 - 4
+Lone Star Quidditch Club WC8 33 - 1
+Kansas Quidditch QC11 31 - 6
+Bowling Green State University QC9 33 - 5
+Ball State Cardinals QC9 31 - 8

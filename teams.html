@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Teams | US Quidditch	</title>
+	<link rel="icon" type="image/x-icon"  href="/img/favicon.ico">	
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,700" /><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic" /><link rel="stylesheet" type="text/css" href="/js/fancybox/source/jquery.fancybox.css" /><link rel="stylesheet" type="text/css" href="/js/fullcalendar/fullcalendar.css" /><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1" /><link rel="stylesheet" type="text/css" href="/css/cakegrid.css" /><link rel="stylesheet" type="text/css" href="/css/spinner.css" /><link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" /><link rel="stylesheet" type="text/css" href="/js/jqgrid/css/ui.jqgrid.css" /><script type="text/javascript" src="//kit.fontawesome.com/0077114b49.js"></script><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script><script type="text/javascript" src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script><script type="text/javascript" src="/js/jquery.jscroll.min.js"></script><script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script><script type="text/javascript" src="/js/fullcalendar/fullcalendar.min.js"></script><script type="text/javascript" src="/js/fancybox/source/jquery.fancybox.js"></script><script type="text/javascript" src="/js/jqgrid/i18n/grid.locale-en.js"></script><script type="text/javascript" src="/js/jqgrid/jquery.jqGrid.src.js"></script><script type="text/javascript" src="/js/custom.js"></script></head>
+<body>
+	<div id="container">
+		<!--<div style='height:80px;width:100%;'></div>
+<div style="width:100%;background-color:#EE5122;position:fixed;height:80px;z-index:9999;top:0px;color:#064F8B;font-family:'League Gothic Regular';text-align:center;"><h1 style='font-size:45pt;'><a target="_blank" href="http://iqaworldcup.com/">Follow World Cup VII Live at iqaworldcup.com!</a></h1></div>
+-->
+<div class="hide-mobile" id="nav_first">
+	<div class="nav_wrapper">
+		<div id="social">
+			<a href="https://www.facebook.com/unitedstatesquidditch" target="_NEW"><i class="fab fa-facebook-square" style="font-size:18px;"></i><span class="hidden">Facebook</span></a>&nbsp;
+			<a href="https://twitter.com/usquidditch" target="_NEW"><i class="fab fa-twitter-square" style="font-size:18px;"></i><span class="hidden">Twitter</span></a>&nbsp;
+			<a href="https://www.instagram.com/usquidditch/" target="_NEW"><i class="fab fa-instagram" style="font-size:18px;"></i><span class="hidden">Instagram</span></a>&nbsp;
+			<a href="http://youtube.com/c/USQuidditch" target="_NEW"><i class="fab fa-youtube-square" style="font-size:18px;"></i><span class="hidden">YouTube</span></a>&nbsp;
+			<a href="http://usquidditch.tumblr.com" target="_NEW"><i class="fab fa-tumblr-square" style="font-size:18px;"></i><span class="hidden">Tumblr</span></a>
+		</div>
+		<div id="login">
+							<i class="fas fa-user"></i> <a href="/users/login">Login</a> &bull; <a href="/users/register">Register</a>
+					</div>
+		<div id="search">
+			<form id='search_form' action='/pages/search' method='get'>
+				<input type="text" name="q" id="search_query" placeholder="Search" onfocus="javascript:if(this.placeholder=='Search') this.placeholder='';" onblur="javascript:if(this.placeholder=='') this.placeholder='Search';" value="" />
+			</form>
+		</div>
+	</div>
+</div>
+<div id="top_nav">
+	<div class="nav_wrapper">
+	        <a href="/">
+		<div id="logo">
+			<img src="/img/logo1.png" alt="USQ" />
+		</div>
+		<h1><a href="/">USQ</a></h1>
+		</a>
+		<ul class="nav">
+							<li>
+					<a href="/about/mission/">About</a>
+											<div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>US Quidditch</h3>
+									<ul>
+																			<li><a href="/about/mission/">About USQ</a></li>
+																			<li><a href="/about/history/">History</a></li>
+																			<li><a href="/about/leadership">Staff</a></li>
+																			<li><a href="/about/press/">Press</a></li>
+																			<li><a href="/about/contact">Contact</a></li>
+																			<li><a href="/about/quidditch-turns-ten-book">Quidditch Turns Ten Book</a></li>
+																		</ul>
+								</div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Initiatives</h3>
+									<ul>
+																			<li><a href="/about/title-9-3-4">Title 9 3/4</a></li>
+																			<li><a href="/about/youth-programs">Youth Programs</a></li>
+																			<li><a href="/get-involved/membership/grants">Team Grants</a></li>
+																			<li><a href="/about/strategic-planning">Strategic Planning</a></li>
+																			<li><a href="http://www.usquidditch.org/about/usq-member-awards">Member Awards</a></li>
+																			<li><a href="/about/player-safety">Player Safety</a></li>
+																		</ul>
+								</div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Join Us</h3>
+									<ul>
+																			<li><a href="/staff_positions/careers">Careers</a></li>
+																			<li><a href="/get-involved/volunteer">Volunteer</a></li>
+																			<li><a href="/get-involved/membership/">Membership</a></li>
+																			<li><a href="/about/get-involved">Get Involved</a></li>
+																		</ul>
+								</div>
+													</div>
+									</li>
+							<li>
+					<a href="http://www.usquidditch.org/news/">NEWS</a>
+									</li>
+							<li>
+					<a href="/teams">Teams</a>
+									</li>
+							<li>
+					<a href="/standings/">Standings</a>
+									</li>
+							<li>
+					<a href="/events/calendar">Events</a>
+											<div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>USQ Events</h3>
+									<ul>
+																			<li><a href="http://usquidditchcup.com/">US Quidditch Cup</a></li>
+																			<li><a href="/events/special/regional-championships">Regional Championships</a></li>
+																			<li><a href="/events/special/team-registration">Team Registration</a></li>
+																			<li><a href="/events/special/officiate-and-volunteer">Officiate and Volunteer</a></li>
+																		</ul>
+								</div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>All Events</h3>
+									<ul>
+																			<li><a href="/events/calendar">Calendar</a></li>
+																			<li><a href="/users/events/Create Event">Submit an Event</a></li>
+																			<li><a href="/about/tournament-director-certification">TD Certification</a></li>
+																			<li><a href="/about/event-survey">Event Survey</a></li>
+																		</ul>
+								</div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Event Policies</h3>
+									<ul>
+																			<li><a href="/about/event-sanctioning">Event Sanctioning</a></li>
+																			<li><a href="/about/event-bidding">Event Bidding</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms">Gameplay Policies</a></li>
+																			<li><a href="/about/stay-and-play">Stay and Play</a></li>
+																			<li><a href="/events/special/circuit-events">Circuit Events</a></li>
+																		</ul>
+								</div>
+													</div>
+									</li>
+							<li>
+					<a href="/about/gameplay-policies-and-forms">Gameplay</a>
+											<div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Rules</h3>
+									<ul>
+																			<li><a href="/about/rules/">Rulebook</a></li>
+																			<li><a href="/about/rules-high-school">Adaptations for HS</a></li>
+																			<li><a href="/about/rules-kidditch">Adaptations for Kids</a></li>
+																		</ul>
+								</div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Policies</h3>
+									<ul>
+																			<li><a href="/about/gameplay-policies-and-forms">All Gameplay Policies</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#regionaltransfer">Regional Transfer</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#playertransfer">Player Transfer</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#playerdisciplinary">Player Disclipinary</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#gameappeal">Game Appeal</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#fairplay">Fair Play Policy</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#forfeitprocedure">Forfeit Policy</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#tiebreakerpolicy">Tiebreaker Policy</a></li>
+																			<li><a href="/about/stay-and-play">Stay and Play</a></li>
+																			<li><a href="/about/code-of-conduct">Member Code of Conduct</a></li>
+																		</ul>
+								</div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Resources</h3>
+									<ul>
+																			<li><a href="/about/gameplay-policies-and-forms#season">Season Requirements</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#officialgamerequirements">Match Requirements</a></li>
+																			<li><a href="/about/quidditch-scorecards/">Quidditch Scorecards</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#equipmentrules">Equipment Rules</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#officialquaffleselection">Official Quaffle</a></li>
+																			<li><a href="/about/gameplay-policies-and-forms#playernumber">Player Number Policy</a></li>
+																			<li><a href="get-involved/team-requirements">Team Requirements</a></li>
+																			<li><a href="http://www.usquidditch.org/get-involved/officials/referee-policies">Referee Policies</a></li>
+																		</ul>
+								</div>
+													</div>
+									</li>
+							<li>
+					<a href="/get-involved/membership">Join</a>
+											<div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Start a Team</h3>
+									<ul>
+																			<li><a href="/get-involved/start-a-team">Overview</a></li>
+																			<li><a href="/get-involved/start-a-team-college">College</a></li>
+																			<li><a href="/get-involved/start-a-team-community">Club</a></li>
+																			<li><a href="/get-involved/resources">Resources</a></li>
+																			<li><a href="/get-involved/youth-programs">Youth</a></li>
+																		</ul>
+								</div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Membership</h3>
+									<ul>
+																			<li><a href="/get-involved/membership">Overview and Prices</a></li>
+																			<li><a href="/get-involved/membership/grants">Grants</a></li>
+																			<li><a href="/get-involved/membership/faq">FAQ</a></li>
+																			<li><a href="/get-involved/team-membership">Team Membership</a></li>
+																			<li><a href="/get-involved/player-membership">Player Membership</a></li>
+																			<li><a href="/get-involved/coach-membership">Coach Membership</a></li>
+																			<li><a href="/get-involved/referee-membership">Referee Membership</a></li>
+																		</ul>
+								</div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Join Us</h3>
+									<ul>
+																			<li><a href="/teams">Find a Team</a></li>
+																			<li><a href="/get-involved/officials/become-a-referee">Become a Referee</a></li>
+																			<li><a href="/get-involved/officials/become-a-snitch">Become a Snitch</a></li>
+																			<li><a href="/get-involved/volunteer">Volunteer</a></li>
+																			<li><a href="/get-involved/careers">Careers</a></li>
+																			<li><a href="/get-involved/donate">Donate</a></li>
+																			<li><a href="/get-involved/us-national-team">US National Team</a></li>
+																		</ul>
+								</div>
+													</div>
+									</li>
+							<li>
+					<a href="/get-involved/resources">Resources</a>
+											<div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Start a Team</h3>
+									<ul>
+																			<li><a href="/get-involved/start-a-team">Overview</a></li>
+																			<li><a href="/get-involved/youth-programs">Youth</a></li>
+																			<li><a href="/get-involved/start-a-team-college">College</a></li>
+																			<li><a href="/get-involved/start-a-team-community">Club</a></li>
+																		</ul>
+								</div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>For Members</h3>
+									<ul>
+																			<li><a href="/get-involved/referee-resources">Referee Resources</a></li>
+																			<li><a href="/get-involved/snitch-resources">Snitch Resources</a></li>
+																			<li><a href="/get-involved/coach-resources">Coach Resources</a></li>
+																			<li><a href="/get-involved/team-resources">Team Resources</a></li>
+																			<li><a href="/get-involved/player-resources">Player Resources</a></li>
+																		</ul>
+								</div>
+															<div class="nav-column" style="border-right: 1px solid #989898;">
+									<h3>Events</h3>
+									<ul>
+																			<li><a href="/get-involved/tournament-director-resources">TD Resources</a></li>
+																			<li><a href="/about/event-sanctioning">Event Sanctioning</a></li>
+																			<li><a href="/about/event-bidding">Event Bidding</a></li>
+																			<li><a href="/pages/getInvolved/feedback">Feedback</a></li>
+																		</ul>
+								</div>
+													</div>
+									</li>
+							<li>
+					<a href="http://store.dftba.com/collections/us-quidditch">Store</a>
+									</li>
+							<li>
+					<a href="/about/donate-to-us-quidditch">Donate</a>
+									</li>
+					</ul>
+			
+	</div>	
+
+</div>
+		<div id="map_canvas" style="width: 100%; height: 450px; margin-left:auto; margin-right:auto;"></div>
+
+		<div id="content-wrapper">
+
+			
+			<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyBXbqLYTfvB5k1O5MlOv_WHp5gP-cT09VY"></script>
+<div id="content">
+	<h2>Teams</h2>
+	<p>The map above will fill up as teams register for the current season. Want to be listed here? Non-member teams and youth teams are encouraged to join our teams directory. To sign your team up for this free resource, please follow the steps below:</p>
+	<p><ol><li>Create an account using <a href="https://www.usquidditch.org/users/login">this link.</a></li>
+	<li>Once an account is created, click on 'My Team'</li>
+	<li>Choose 'Register A Free Team'</li>
+	<li>You then can sign up your team for the directory!</li></ol></p>
+	<div id="teams_list"></div>
+</div>
+<div id="sidebar_white">
+	<h4>Search by Zip</h4>
+	<p><input type="text" id="team_search"></p>
+	<h4>Filter Teams</h4>
+	<p><i>By Region</i></p>
+	<p>
+        <input type="checkbox" class="filter" value=13>Great Lakes<br/>
+		<input type="checkbox" class="filter" value=2>Mid-Atlantic<br/>
+		<input type="checkbox" class="filter" value=3>Midwest<br/>
+		<input type="checkbox" class="filter" value=1>Northeast<br/>
+		<input type="checkbox" class="filter" value=12>Northwest<br/>
+		<input type="checkbox" class="filter" value=5>South<br/>
+		<input type="checkbox" class="filter" value=6>Southwest<br/>
+		<input type="checkbox" class="filter" value=4>West
+		
+	</p>
+	<p><br/>Note: All team locations on the map are pinned at the geographic center of their zipcode</p>
+
+	<p><i>By Membership Status</i></p>
+	<p>
+		<input type="checkbox" class="team_status" value='paid'>Official Team<br/>
+		<input type="checkbox" class="team_status" value='free'>Unofficial Team
+	</p>
+	
+	<p><i>By Division</i></p>
+	<p>
+		<input type="checkbox" class="team_type" value='College'>College Team<br/>
+		<input type="checkbox" class="team_type" value='Adult Club'>Adult Club Team<br/>
+		<input type="checkbox" class="team_type" value='High School'>High School Team<br/>
+		<input type="checkbox" class="team_type" value='Youth Club'>Youth Club Team
+	</p>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+var latlng = new google.maps.LatLng(37.09024, -95.712891);
+var polys = [];
+var teams = [{"Team":{"name":"WVU Summit","slug":"wvu-quidditch","city":"Morgantown","state_province":"WV","zip":"26506","team_type":"College","latitude":"39.6494","longitude":"-79.9571","region_id":"2","status":"paid"}},{"Team":{"name":"Wooster Scottish Nationals","slug":"wooster-scots","city":"Wooster","state_province":"OH","zip":"44691","team_type":"College","latitude":"40.8094","longitude":"-81.9483","region_id":"13","status":"paid"}},{"Team":{"name":"Wizengamot Quidditch At VCU","slug":"wizengamot-1","city":"Richmond","state_province":"VA","zip":"23220","team_type":"College","latitude":"37.5498","longitude":"-77.4588","region_id":"2","status":"paid"}},{"Team":{"name":"Wizards of Westwood","slug":"wizards-4","city":"Los Angeles","state_province":"CA","zip":"90024","team_type":"College","latitude":"34.0637","longitude":"-118.441","region_id":"4","status":"free"}},{"Team":{"name":"Wisconsin Quidditch","slug":"wisconsin-1","city":"Madison","state_province":"WI","zip":"53719","team_type":"College","latitude":"43.0321","longitude":"-89.4993","region_id":"3","status":"free"}},{"Team":{"name":"Wichita State University","slug":"shocker-quidditch","city":"Wichita","state_province":"KS","zip":"67260","team_type":"College","latitude":"37.7165","longitude":"-97.2968","region_id":"3","status":"paid"}},{"Team":{"name":"WestWoods Quidditch","slug":"westwoods","city":"Fulton","state_province":"MO","zip":"65251","team_type":"College","latitude":"38.8518","longitude":"-91.9606","region_id":"3","status":"free"}},{"Team":{"name":"Western Washington Wyverns","slug":"wyverns","city":"Bellingham","state_province":"WA","zip":"98225","team_type":"College","latitude":"48.749","longitude":"-122.489","region_id":"12","status":"paid"}},{"Team":{"name":"Western Carolina University Chimeras","slug":"wcu-chimeras-3","city":"Cullowhee","state_province":"NC","zip":"28723","team_type":"College","latitude":"35.2409","longitude":"-83.1475","region_id":"2","status":"free"}},{"Team":{"name":"Webster Quidditch","slug":"gorloks","city":"Saint Louis","state_province":"MO","zip":"63119","team_type":"College","latitude":"38.5889","longitude":"-90.3508","region_id":"3","status":"free"}},{"Team":{"name":"Virginia Quidditch Club","slug":"virginia-qc","city":"Charlottesville","state_province":"VA","zip":"22903","team_type":"College","latitude":"38.0327","longitude":"-78.5058","region_id":"2","status":"paid"}},{"Team":{"name":"Victoria Spartans","slug":"spartans-2","city":"Victoria","state_province":"TX","zip":"77904","team_type":"Adult Club","latitude":"28.8675","longitude":"-96.999","region_id":"6","status":"free"}},{"Team":{"name":"Vassar Butterbeer Broooers","slug":"vassar-quidditch-3","city":"Poughkeepsie","state_province":"NY","zip":"12604","team_type":"College","latitude":"41.6858","longitude":"-73.8978","region_id":"1","status":"free"}},{"Team":{"name":"Valkyrie Quidditch","slug":"valkyries-2","city":"Little Rock","state_province":"AR","zip":"72210","team_type":"Adult Club","latitude":"34.7076","longitude":"-92.466","region_id":"6","status":"paid"}},{"Team":{"name":"UTSA Club Quidditch","slug":"utsa","city":"San Antonio","state_province":"TX","zip":"78207","team_type":"College","latitude":"29.4229","longitude":"-98.526","region_id":"6","status":"paid"}},{"Team":{"name":"Utah State Quidditch Club","slug":"utah-state","city":"Logan","state_province":"UT","zip":"84321","team_type":"College","latitude":"41.747","longitude":"-111.823","region_id":"4","status":"paid"}},{"Team":{"name":"USM Quidditch","slug":"usm-quidditch","city":"HATTIESBURG","state_province":"MS","zip":"39406","team_type":"College","latitude":"31.3282","longitude":"-89.3303","region_id":"5","status":"free"}},{"Team":{"name":"University of Vermont Quidditch Club","slug":"uvm-quidditch","city":"Burlington ","state_province":"VT","zip":"05405","team_type":"College","latitude":"44.4777","longitude":"-73.2002","region_id":"1","status":"paid"}},{"Team":{"name":"University of Utah Quidditch","slug":"utah-quidditch","city":"Salt Lake City","state_province":"UT","zip":"84113","team_type":"College","latitude":"40.7631","longitude":"-111.842","region_id":"4","status":"paid"}},{"Team":{"name":"University of Toledo Quidditch","slug":"ut-quidditch","city":"Toledo","state_province":"OH","zip":"43607","team_type":"College","latitude":"41.6504","longitude":"-83.5974","region_id":"13","status":"free"}},{"Team":{"name":"University of South Florida Quidditch","slug":"south-florida-quidditch","city":"Tampa","state_province":"FL","zip":"33620","team_type":"College","latitude":"28.0695","longitude":"-82.4092","region_id":"5","status":"free"}},{"Team":{"name":"University of Rochester Thestrals","slug":"ur-thestrals","city":"Rochester","state_province":"NY","zip":"14620","team_type":"College","latitude":"43.1317","longitude":"-77.6062","region_id":"1","status":"paid"}},{"Team":{"name":"University of Northern Colorado","slug":"unc","city":"Greeley","state_province":"CO","zip":"80631","team_type":"College","latitude":"40.414","longitude":"-104.705","region_id":"3","status":"paid"}},{"Team":{"name":"University of North Carolina Wilmington","slug":"unc-wilmington","city":"Wilmington","state_province":"NC","zip":"28403","team_type":"College","latitude":"34.2237","longitude":"-77.8862","region_id":"2","status":"paid"}},{"Team":{"name":"University of Miami","slug":"umiami","city":"Coral Gables","state_province":"FL","zip":"33146","team_type":"College","latitude":"25.7201","longitude":"-80.2746","region_id":"5","status":"free"}},{"Team":{"name":"University of Massachusetts Lowell Riverhawks","slug":"umass-lowell","city":"Lowell","state_province":"MA","zip":"01854","team_type":"College","latitude":"42.6493","longitude":"-71.3355","region_id":"1","status":"free"}},{"Team":{"name":"University of Massachusetts Amherst Death Beaters","slug":"umass-death-beaters-1","city":"Amherst","state_province":"MA","zip":"01003","team_type":"College","latitude":"42.3892","longitude":"-72.5256","region_id":"1","status":"paid"}},{"Team":{"name":"University of Florida Club Quidditch","slug":"uf-quidditch-2","city":"Gainesville ","state_province":"FL","zip":"32611","team_type":"College","latitude":"29.6441","longitude":"-82.3509","region_id":"5","status":"paid"}},{"Team":{"name":"University of California Los Angeles","slug":"ucla","city":"Los Angeles","state_province":"CA","zip":"90095-1612","team_type":"College","latitude":"34.0708","longitude":"-118.444","region_id":"4","status":"paid"}},{"Team":{"name":"University of Arkansas","slug":"u-of-a-1","city":"Fayetteville","state_province":"AR","zip":"72701","team_type":"College","latitude":"36.052","longitude":"-94.1534","region_id":"6","status":"free"}},{"Team":{"name":"University of Arizona Quidditch","slug":"ua-quidditch","city":"Tucson","state_province":"AZ","zip":"85716","team_type":"College","latitude":"32.2468","longitude":"-110.922","region_id":"4","status":"paid"}},{"Team":{"name":"UNCG Spartans Quidditch","slug":"uncg-quidditch","city":"Greensboro","state_province":"NC","zip":"27412","team_type":"College","latitude":"36.0725","longitude":"-79.7922","region_id":"2","status":"free"}},{"Team":{"name":"Twin Cities Quidditch Club","slug":"frost-quidditch","city":"Minneapolis","state_province":"MN","zip":"55406","team_type":"Adult Club","latitude":"44.9384","longitude":"-93.2214","region_id":"3","status":"paid"}},{"Team":{"name":"TVMS Quidditch Club","slug":"tvms-quidditch","city":"Zoarville","state_province":"OH","zip":"44656","team_type":"Youth Club","latitude":"40.6257","longitude":"-81.3546","region_id":"13","status":"free"}},{"Team":{"name":"Tulane University Club Quidditch","slug":"tulane-quidditch","city":"New Orleans","state_province":"LA","zip":"70118","team_type":"College","latitude":"29.9504","longitude":"-90.1236","region_id":"6","status":"paid"}},{"Team":{"name":"Tufts University Tufflepuffs","slug":"tufts-quidditch","city":"Medford","state_province":"MA","zip":"02155","team_type":"College","latitude":"42.4173","longitude":"-71.1087","region_id":"1","status":"paid"}},{"Team":{"name":"Tidewater Trident Quidditch ","slug":"trident","city":"Virginia Beach","state_province":"VA","zip":"23454","team_type":"Adult Club","latitude":"36.8282","longitude":"-76.0237","region_id":"2","status":"free"}},{"Team":{"name":"The Worcester Wargs","slug":"wargs","city":"worcester","state_province":"MA","zip":"01610","team_type":"Adult Club","latitude":"42.2492","longitude":"-71.8108","region_id":"1","status":"free"}},{"Team":{"name":"The Warriors","slug":"warriors-1","city":"Clifton","state_province":"NJ","zip":"07013","team_type":"Adult Club","latitude":"40.8693","longitude":"-74.1711","region_id":"2","status":"paid"}},{"Team":{"name":"The University of North Carolina at Chapel Hill Quidditch","slug":"unc-quidditch","city":"Chapel Hill","state_province":"NC","zip":"27599","team_type":"College","latitude":"35.9052","longitude":"-79.0474","region_id":"2","status":"paid"}},{"Team":{"name":"The Silver Phoenix","slug":"silver-phoenix-1","city":"College Station","state_province":"TX","zip":"77843","team_type":"College","latitude":"30.6147","longitude":"-96.34","region_id":"6","status":"paid"}},{"Team":{"name":"The Rogues","slug":"rogues","city":"Brooklyn","state_province":"NY","zip":"11238","team_type":"Adult Club","latitude":"40.679","longitude":"-73.9644","region_id":"1","status":"paid"}},{"Team":{"name":"The Quidditch Club of ODU","slug":"odu-quidditch-1","city":"Norfolk","state_province":"VA","zip":"23529","team_type":"College","latitude":"36.8871","longitude":"-76.3053","region_id":"2","status":"paid"}},{"Team":{"name":"The Ohio State University","slug":"ohio-state","city":"Columbus","state_province":"OH","zip":"43210","team_type":"College","latitude":"40.0028","longitude":"-83.0164","region_id":"13","status":"free"}},{"Team":{"name":"The Lost Boys Quidditch Club","slug":"the-lost-boys","city":" North Hollywood","state_province":"CA","zip":"91601","team_type":"Adult Club","latitude":"34.1687","longitude":"-118.371","region_id":"4","status":"paid"}},{"Team":{"name":"The Long Beach Funky Quaffles","slug":"funky-quaffles-1","city":"Westminster ","state_province":"CA","zip":"92683","team_type":"Adult Club","latitude":"33.7528","longitude":"-117.991","region_id":"4","status":"paid"}},{"Team":{"name":"The Hunter Hawks","slug":"the-hawks","city":"New York","state_province":"NY","zip":"10128","team_type":"High School","latitude":"40.7816","longitude":"-73.9511","region_id":"1","status":"free"}},{"Team":{"name":"The Fighting Farmers of America","slug":"farmers-3","city":"Goleta","state_province":"CA","zip":"93117","team_type":"Adult Club","latitude":"34.4296","longitude":"-119.861","region_id":"4","status":"paid"}},{"Team":{"name":"The Brave Gryffindors Quidditch Team ","slug":"brave-gryffindors-quidditch-team","city":"Orlando","state_province":"FL","zip":"34786","team_type":"High School","latitude":"28.5006","longitude":"-81.5354","region_id":"5","status":"free"}},{"Team":{"name":"Texas Tech Quidditch Club","slug":"texas-tech-quidditch","city":"Lubbock","state_province":"TX","zip":"79401","team_type":"College","latitude":"33.5865","longitude":"-101.861","region_id":"6","status":"paid"}},{"Team":{"name":"Texas State University - San Marcos","slug":"texas-state","city":"San Marcos","state_province":"TX","zip":"78666","team_type":"College","latitude":"29.8754","longitude":"-97.9404","region_id":"6","status":"free"}},{"Team":{"name":"Texas State Quidditch","slug":"texas-state-2","city":"San Marcos","state_province":"TX","zip":"78666","team_type":"College","latitude":"29.8754","longitude":"-97.9404","region_id":"6","status":"paid"}},{"Team":{"name":"Texas Quidditch","slug":"texas-quidditch-3","city":"Austin","state_province":"TX","zip":"78712","team_type":"College","latitude":"30.2858","longitude":"-97.7349","region_id":"6","status":"paid"}},{"Team":{"name":"Texas Hill Country Heat","slug":"heat","city":"Manchaca","state_province":"TX","zip":"78652","team_type":"Adult Club","latitude":"30.1273","longitude":"-97.8538","region_id":"6","status":"paid"}},{"Team":{"name":"Texas Cavalry","slug":"cavalry-3","city":"Austin","state_province":"TX","zip":"78748","team_type":"Adult Club","latitude":"30.1743","longitude":"-97.8225","region_id":"6","status":"paid"}},{"Team":{"name":"Texas A&M Quidditch","slug":"texas-a-m-1","city":"College Station","state_province":"TX","zip":"77840","team_type":"College","latitude":"30.6045","longitude":"-96.3123","region_id":"6","status":"paid"}},{"Team":{"name":"Terminus Quidditch Atlanta","slug":"terminus-quidditch","city":"Atlanta ","state_province":"GA","zip":"30034","team_type":"Adult Club","latitude":"33.6954","longitude":"-84.2489","region_id":"5","status":"paid"}},{"Team":{"name":"Team Bumblebee","slug":"bumblebee-2","city":"Brooklandville","state_province":"MD","zip":"21022","team_type":"High School","latitude":"39.4203","longitude":"-76.6703","region_id":"2","status":"free"}},{"Team":{"name":"Syracuse Snare Quidditch Club","slug":"syracuse-snare","city":"Syracuse ","state_province":"NY","zip":"13244","team_type":"College","latitude":"43.0394","longitude":"-76.1361","region_id":"1","status":"paid"}},{"Team":{"name":"Sunrise Spellcasters","slug":"spellcasters-1","city":"Orlando","state_province":"FL","zip":"32828","team_type":"Youth Club","latitude":"28.5523","longitude":"-81.1795","region_id":"5","status":"free"}},{"Team":{"name":"Sun Devil Quidditch","slug":"sun-devils","city":"Tempe","state_province":"AZ","zip":"85281","team_type":"College","latitude":"33.4227","longitude":"-111.926","region_id":"4","status":"free"}},{"Team":{"name":"Stony Brook Quidditch","slug":"stony-brook","city":"Stony Brook","state_province":"NY","zip":"11794","team_type":"College","latitude":"40.9141","longitude":"-73.1255","region_id":"1","status":"free"}},{"Team":{"name":"Stockton University Ospreys","slug":"stockton-ospreys-2","city":"Galloway","state_province":"NJ","zip":"08205","team_type":"College","latitude":"39.4283","longitude":"-74.4961","region_id":"2","status":"free"}},{"Team":{"name":"Steel City Quidditch Club","slug":"steel-city-1","city":"Pittsburgh","state_province":"PA","zip":"15221","team_type":"Adult Club","latitude":"40.4384","longitude":"-79.8702","region_id":"2","status":"free"}},{"Team":{"name":"Stanford Quidditch","slug":"stanford","city":"Stanford","state_province":"CA","zip":"94309","team_type":"College","latitude":"37.4242","longitude":"-122.165","region_id":"4","status":"paid"}},{"Team":{"name":"Spyglass Sorcerers","slug":"sorcerers","city":"Cincinnati","state_province":"OH","zip":"45230","team_type":"Youth Club","latitude":"39.0809","longitude":"-84.3787","region_id":"13","status":"free"}},{"Team":{"name":"Space Cowboys Quidditch","slug":"space-cowboys","city":"Fayetteville ","state_province":"NC","zip":"28314","team_type":"Adult Club","latitude":"35.0583","longitude":"-79.008","region_id":"2","status":"paid"}},{"Team":{"name":"Southern Storm","slug":"storm","city":"Sylva","state_province":"NC","zip":"28779","team_type":"Adult Club","latitude":"35.3481","longitude":"-83.2031","region_id":"2","status":"paid"}},{"Team":{"name":"Southern Illinois University","slug":"siu","city":"Carbondale","state_province":"IL","zip":"62901","team_type":"College","latitude":"37.72","longitude":"-89.2158","region_id":"3","status":"paid"}},{"Team":{"name":"Skidmore Quidditch","slug":"skidmore-quidditch","city":"Saratoga Springs","state_province":"NY","zip":"12866","team_type":"College","latitude":"43.0801","longitude":"-73.7806","region_id":"1","status":"paid"}},{"Team":{"name":"SIUE Quidditch Club","slug":"siue-quidditch","city":"Edwardsville","state_province":"IL","zip":"62026","team_type":"College","latitude":"38.8114","longitude":"-89.9531","region_id":"3","status":"paid"}},{"Team":{"name":"Silicon Valley Vipers","slug":"vipers","city":"Mountain View","state_province":"CA","zip":"94041","team_type":"Adult Club","latitude":"37.3893","longitude":"-122.078","region_id":"4","status":"paid"}},{"Team":{"name":"Silicon Valley Venom","slug":"venom","city":"Mountain View","state_province":"CA","zip":"94041","team_type":"Adult Club","latitude":"37.3893","longitude":"-122.078","region_id":"4","status":"free"}},{"Team":{"name":"SHSU Quidditch","slug":"sam-houston","city":"Huntsville","state_province":"TX","zip":"77340","team_type":"College","latitude":"30.7344","longitude":"-95.5342","region_id":"6","status":"paid"}},{"Team":{"name":"San Jose State University Spartan Quidditch","slug":"sjsu-quidditch","city":"San Jose","state_province":"CA","zip":"95112","team_type":"College","latitude":"37.3414","longitude":"-121.88","region_id":"4","status":"paid"}},{"Team":{"name":"Salt Lake Quidditch Club","slug":"slqc","city":"Salt Lake City","state_province":"UT","zip":"84105","team_type":"Adult Club","latitude":"40.7372","longitude":"-111.858","region_id":"4","status":"paid"}},{"Team":{"name":"Salisbury University Quidditch Club","slug":"salisbury-phoenixes","city":"Salisbury","state_province":"MD","zip":"21801","team_type":"College","latitude":"38.363","longitude":"-75.5922","region_id":"2","status":"paid"}},{"Team":{"name":"Saint Paul's Werewolves","slug":"werewolves-2","city":"Covington","state_province":"LA","zip":"70433","team_type":"High School","latitude":"30.4876","longitude":"-90.0959","region_id":"6","status":"free"}},{"Team":{"name":"Rutgers University Quidditch ","slug":"rutgers-quidditch-5","city":"New Brunswick","state_province":"NJ","zip":"08901","team_type":"College","latitude":"40.4891","longitude":"-74.4482","region_id":"2","status":"paid"}},{"Team":{"name":"RPI Quidditch","slug":"rpi","city":"Troy","state_province":"NY","zip":"12180","team_type":"College","latitude":"42.7287","longitude":"-73.6683","region_id":"1","status":"paid"}},{"Team":{"name":"Rose City Reapers","slug":"reapers","city":"Portland","state_province":"OR","zip":"97210","team_type":"Adult Club","latitude":"45.5303","longitude":"-122.703","region_id":"12","status":"free"}},{"Team":{"name":"Rollins College Quidditch Team","slug":"rollins-quidditch","city":"Winter Park","state_province":"FL","zip":"32789","team_type":"College","latitude":"28.5978","longitude":"-81.3534","region_id":"5","status":"free"}},{"Team":{"name":"Rochester Hailstorm","slug":"hailstorm","city":"Rochester","state_province":"NY","zip":"14623","team_type":"Adult Club","latitude":"43.0834","longitude":"-77.6344","region_id":"1","status":"free"}},{"Team":{"name":"River City Riders","slug":"riders","city":"San Antonio ","state_province":"TX","zip":"78213","team_type":"Adult Club","latitude":"29.5134","longitude":"-98.5227","region_id":"6","status":"paid"}},{"Team":{"name":"RIT Dark Marks","slug":"dark-marks","city":"Rochester","state_province":"NY","zip":"14623","team_type":"College","latitude":"43.0834","longitude":"-77.6344","region_id":"1","status":"paid"}},{"Team":{"name":"Richmond Quidditch","slug":"richmond-quidditch","city":"Richmond","state_province":"VA","zip":"23173","team_type":"College","latitude":"37.5737","longitude":"-77.5407","region_id":"2","status":"paid"}},{"Team":{"name":"Revolution","slug":"revolution","city":"East Providence","state_province":"RI","zip":"02914","team_type":"Adult Club","latitude":"41.8138","longitude":"-71.3688","region_id":"1","status":"paid"}},{"Team":{"name":"Rain City Raptors","slug":"raptors-1","city":"Bellevue","state_province":"WA","zip":"98004","team_type":"Adult Club","latitude":"47.6199","longitude":"-122.207","region_id":"12","status":"paid"}},{"Team":{"name":"Quidditch Club of Pittsburgh","slug":"qc-pitt","city":"Pittsburgh","state_province":"PA","zip":"15213","team_type":"College","latitude":"40.4437","longitude":"-79.9544","region_id":"2","status":"paid"}},{"Team":{"name":"Quidditch Club of Old Dominion University ","slug":"odu-quidditch","city":"Norfolk","state_province":"VA","zip":"23529","team_type":"College","latitude":"36.8871","longitude":"-76.3053","region_id":"2","status":"free"}},{"Team":{"name":"Quidditch Club Dallas","slug":"qc-dallas","city":"Waco","state_province":"TX","zip":"76706","team_type":"Adult Club","latitude":"31.5171","longitude":"-97.1198","region_id":"6","status":"paid"}},{"Team":{"name":"Quidditch Club Boston","slug":"q-c-boston-1","city":"Somerville","state_province":"MA","zip":"02144","team_type":"Adult Club","latitude":"42.4003","longitude":"-71.1221","region_id":"1","status":"free"}},{"Team":{"name":"Quidditch Club at Virginia Tech","slug":"virginia-tech","city":"Blacksburg","state_province":"VA","zip":"24060","team_type":"College","latitude":"37.2288","longitude":"-80.4273","region_id":"2","status":"paid"}},{"Team":{"name":"Quidditch Club at Iowa State","slug":"isu-quidditch","city":"Ames","state_province":"IA","zip":"50011","team_type":"College","latitude":"42.027","longitude":"-93.6409","region_id":"3","status":"free"}},{"Team":{"name":"Quidditch Association of Carleton","slug":"quac-1","city":"Northfield","state_province":"MN","zip":"55057","team_type":"College","latitude":"44.4587","longitude":"-93.1668","region_id":"3","status":"free"}},{"Team":{"name":"Purdue Intercollegiate Quidditch Association","slug":"purdue-quidditch-2","city":"West Lafayette","state_province":"IN","zip":"47906","team_type":"College","latitude":"40.444","longitude":"-86.9237","region_id":"13","status":"free"}},{"Team":{"name":"Plant High School Panthers","slug":"plant-panthers","city":"Tampa","state_province":"FL","zip":"33629","team_type":"High School","latitude":"27.921","longitude":"-82.5079","region_id":"5","status":"free"}},{"Team":{"name":"Plant High School Panthers","slug":"plant-panthers-1","city":"Tampa","state_province":"FL","zip":"33629","team_type":"High School","latitude":"27.921","longitude":"-82.5079","region_id":"5","status":"free"}},{"Team":{"name":"Piedmont Quidditch ","slug":"quids","city":"Piedmont","state_province":"OK","zip":"73078","team_type":"Youth Club","latitude":"35.6695","longitude":"-97.7431","region_id":"6","status":"free"}},{"Team":{"name":"Philadelphia Freedom Quidditch Club","slug":"philly-freedom","city":"Yardley","state_province":"PA","zip":"19067","team_type":"Adult Club","latitude":"40.2121","longitude":"-74.8222","region_id":"2","status":"paid"}},{"Team":{"name":"Penn State Quidditch","slug":"penn-state","city":"University Park","state_province":"PA","zip":"16802","team_type":"College","latitude":"40.8019","longitude":"-77.8567","region_id":"2","status":"paid"}},{"Team":{"name":"Panama City Firebolts","slug":"firebolts-1","city":"Panama City","state_province":"FL","zip":"32405","team_type":"College","latitude":"30.1949","longitude":"-85.6727","region_id":"5","status":"paid"}},{"Team":{"name":"Oklahoma State University","slug":"oklahoma-state","city":"Stillwater","state_province":"OK","zip":"74075","team_type":"College","latitude":"36.1396","longitude":"-97.063","region_id":"6","status":"paid"}},{"Team":{"name":"Ohio University Quidditch Club","slug":"ohio-university","city":"Athens","state_province":"OH","zip":"45701","team_type":"College","latitude":"39.3178","longitude":"-82.102","region_id":"13","status":"paid"}},{"Team":{"name":"Ohio Apollos","slug":"apollos","city":"Parma","state_province":"OH","zip":"44134","team_type":"Adult Club","latitude":"41.3908","longitude":"-81.7057","region_id":"13","status":"paid"}},{"Team":{"name":"Northern Arizona University Narwhals","slug":"narwhals","city":"Flagstaff","state_province":"AZ","zip":"86001","team_type":"College","latitude":"35.1859","longitude":"-111.662","region_id":"4","status":"paid"}},{"Team":{"name":"Nomads","slug":"nomads-1","city":"Boise","state_province":"ID","zip":"83706","team_type":"Adult Club","latitude":"43.5885","longitude":"-116.191","region_id":"12","status":"free"}},{"Team":{"name":"New York University Quidditch","slug":"nyu","city":"New York","state_province":"NY","zip":"10012","team_type":"College","latitude":"40.7255","longitude":"-73.9983","region_id":"1","status":"paid"}},{"Team":{"name":"New York Quidditch Club","slug":"nocturns-2","city":"Brooklyn","state_province":"NY","zip":"11226","team_type":"Adult Club","latitude":"40.6467","longitude":"-73.957","region_id":"1","status":"paid"}},{"Team":{"name":"New York Pigeons","slug":"pigeons","city":"New York","state_province":"NY","zip":"10003","team_type":"College","latitude":"40.7313","longitude":"-73.9892","region_id":"1","status":"paid"}},{"Team":{"name":"New York Badassilisks","slug":"badassilisks-3","city":"New York","state_province":"NY","zip":"10025","team_type":"Adult Club","latitude":"40.7975","longitude":"-73.9683","region_id":"1","status":"free"}},{"Team":{"name":"Nearly Headless Knights","slug":"ucf-quidditch-1","city":"Orlando","state_province":"FL","zip":"32817","team_type":"College","latitude":"28.5903","longitude":"-81.2535","region_id":"5","status":"paid"}},{"Team":{"name":"Mizzou Club Quidditch ","slug":"mizzou-1","city":"Columbia","state_province":"MO","zip":"65211","team_type":"College","latitude":"38.9368","longitude":"-92.3221","region_id":"3","status":"paid"}},{"Team":{"name":"Minnesota Quidditch","slug":"minnesota","city":"Minneapolis","state_province":"MN","zip":"55455","team_type":"College","latitude":"44.9816","longitude":"-93.2393","region_id":"3","status":"paid"}},{"Team":{"name":"Mile High Quidditch Club","slug":"mile-high","city":"Denver","state_province":"CO","zip":"80205","team_type":"Adult Club","latitude":"39.759","longitude":"-104.966","region_id":"3","status":"paid"}},{"Team":{"name":"Middlebury College Quidditch","slug":"midd-quidd","city":"Middlebury","state_province":"VT","zip":"05753","team_type":"College","latitude":"44.007","longitude":"-73.1661","region_id":"1","status":"paid"}},{"Team":{"name":"Michigan State Quidditch","slug":"michigan-state-quidditch","city":"East Lansing","state_province":"MI","zip":"48823","team_type":"College","latitude":"42.7388","longitude":"-84.4764","region_id":"13","status":"paid"}},{"Team":{"name":"Michigan Quidditch Team","slug":"michigan-quidditch","city":"Ann Arbor","state_province":"MI","zip":"48104","team_type":"College","latitude":"42.2694","longitude":"-83.7282","region_id":"13","status":"paid"}},{"Team":{"name":"Miami University (OH) Quidditch","slug":"miami-quidditch","city":"Oxford","state_province":"OH","zip":"45056","team_type":"College","latitude":"39.5038","longitude":"-84.7385","region_id":"13","status":"paid"}},{"Team":{"name":"McNary Celtics","slug":"mcnary-1","city":"Keizer","state_province":"OR","zip":"97303","team_type":"High School","latitude":"44.9858","longitude":"-123.019","region_id":"12","status":"free"}},{"Team":{"name":"Maui Mudbloods","slug":"mudbloods","city":"Makawao","state_province":"HI","zip":"96768","team_type":"Youth Club","latitude":"20.8469","longitude":"-156.333","region_id":"4","status":"free"}},{"Team":{"name":"Maryville University Quidditch ","slug":"saints-quidditch","city":"St. Louis","state_province":"MO","zip":"63141","team_type":"College","latitude":"38.6617","longitude":"-90.4571","region_id":"3","status":"paid"}},{"Team":{"name":"Maryland Quidditch","slug":"maryland","city":"College Park","state_province":"MD","zip":"20740","team_type":"College","latitude":"38.9963","longitude":"-76.9299","region_id":"2","status":"paid"}},{"Team":{"name":"Marquette University Quidditch","slug":"marquette","city":"Milwaukee","state_province":"WI","zip":"53233","team_type":"College","latitude":"43.0407","longitude":"-87.9357","region_id":"3","status":"paid"}},{"Team":{"name":"Macaulay Honors College Marauders","slug":"macaulay-marauders","city":"New York","state_province":"NY","zip":"10023","team_type":"College","latitude":"40.7764","longitude":"-73.9827","region_id":"1","status":"paid"}},{"Team":{"name":"Loyola University Chicago","slug":"loyola-lumos-3","city":"Chicago","state_province":"IL","zip":"60660","team_type":"College","latitude":"41.9909","longitude":"-87.6629","region_id":"3","status":"paid"}},{"Team":{"name":"Loyola New Orleans Quidditch","slug":"loyola-university-quidditch","city":"New Orleans","state_province":"LA","zip":"70118","team_type":"College","latitude":"29.9504","longitude":"-90.1236","region_id":"6","status":"free"}},{"Team":{"name":"Loveland Flyin\u2019 Frogmen","slug":"flyina-frogmen","city":"Loveland","state_province":"OH","zip":"45140","team_type":"High School","latitude":"39.2445","longitude":"-84.2588","region_id":"13","status":"free"}},{"Team":{"name":"Louisiana State University","slug":"lsu-quidditch","city":"Baton Rouge","state_province":"LA","zip":"70803","team_type":"College","latitude":"30.4124","longitude":"-91.1822","region_id":"6","status":"paid"}},{"Team":{"name":"Los Angeles Gambits","slug":"la-gambits-1","city":"Torrance","state_province":"CA","zip":"90503","team_type":"Adult Club","latitude":"33.8397","longitude":"-118.354","region_id":"4","status":"free"}},{"Team":{"name":"Long Beach Bruisers","slug":"bruisers","city":"Long Beach","state_province":"CA","zip":"90808","team_type":"Adult Club","latitude":"33.8241","longitude":"-118.11","region_id":"4","status":"free"}},{"Team":{"name":"Lone Star Quidditch Club","slug":"lone-star-qc","city":"Austin","state_province":"TX","zip":"78758","team_type":"Adult Club","latitude":"30.3764","longitude":"-97.7078","region_id":"6","status":"paid"}},{"Team":{"name":"Lock Haven University Quidditch","slug":"lhu-quidditch","city":"Lock Haven","state_province":"PA","zip":"17745","team_type":"College","latitude":"41.1425","longitude":"-77.4436","region_id":"2","status":"paid"}},{"Team":{"name":"Lakewood Spartans","slug":"spartans-3","city":"St. Petersburg","state_province":"FL","zip":"33716","team_type":"High School","latitude":"27.8738","longitude":"-82.64","region_id":"5","status":"free"}},{"Team":{"name":"Kent State Quidditch","slug":"ksu-quidditch","city":"Kent","state_province":"OH","zip":"44240","team_type":"College","latitude":"41.1449","longitude":"-81.3498","region_id":"13","status":"free"}},{"Team":{"name":"Kansas Quidditch","slug":"kansas-quidditch","city":"Lawrence","state_province":"KS","zip":"66049","team_type":"College","latitude":"38.9704","longitude":"-95.2769","region_id":"3","status":"paid"}},{"Team":{"name":"Johns Hopkins Quidditch Club","slug":"jhu-quidditch-1","city":"Baltimore","state_province":"MD","zip":"21218","team_type":"College","latitude":"39.3265","longitude":"-76.6048","region_id":"2","status":"paid"}},{"Team":{"name":"James Madison University Quidditch","slug":"jmu-club-quidditch","city":"Harrisonburg","state_province":"VA","zip":"22807","team_type":"College","latitude":"38.4341","longitude":"-78.8674","region_id":"2","status":"paid"}},{"Team":{"name":"Iowa Quidditch Club","slug":"iowa-quidditch-1","city":"Iowa City","state_province":"IA","zip":"52240","team_type":"College","latitude":"41.6549","longitude":"-91.5112","region_id":"3","status":"paid"}},{"Team":{"name":"Indiana University Quidditch Club","slug":"iu-quidditch-1","city":"Bloomington","state_province":"IN","zip":"47408","team_type":"College","latitude":"39.1832","longitude":"-86.5058","region_id":"13","status":"paid"}},{"Team":{"name":"Indiana State University Quidditch","slug":"isu-quidditch-1","city":"Terre Haute","state_province":"IN","zip":"47809","team_type":"College","latitude":"39.4719","longitude":"-87.4039","region_id":"13","status":"paid"}},{"Team":{"name":"Illinois State University Firebirds","slug":"firebirds","city":"Normal","state_province":"IL","zip":"61761","team_type":"College","latitude":"40.5124","longitude":"-88.9883","region_id":"3","status":"paid"}},{"Team":{"name":"Illini Ridgebacks Quidditch","slug":"illini-ridgebacks-1","city":"Champaign","state_province":"IL","zip":"61820","team_type":"College","latitude":"40.111","longitude":"-88.2407","region_id":"3","status":"paid"}},{"Team":{"name":"Houston Cosmos Quidditch Club","slug":"houston-cosmos","city":"Houston","state_province":"TX","zip":"77007","team_type":"Adult Club","latitude":"29.7736","longitude":"-95.4034","region_id":"6","status":"paid"}},{"Team":{"name":"Hofstra University Flying Dutchmen","slug":"hofstra-quidditch","city":"Hempstead","state_province":"NY","zip":"11549","team_type":"College","latitude":"40.7139","longitude":"-73.6003","region_id":"1","status":"paid"}},{"Team":{"name":"Harvard Horntails","slug":"harvard","city":"Boston","state_province":"MA","zip":"02163","team_type":"College","latitude":"42.364","longitude":"-71.1419","region_id":"1","status":"paid"}},{"Team":{"name":"Grand Valley Grindylows","slug":"grindylows","city":"Allendale","state_province":"MI","zip":"49401","team_type":"College","latitude":"42.9711","longitude":"-85.9249","region_id":"13","status":"paid"}},{"Team":{"name":"Grace Quidditch Club","slug":"grace-quidditch-2","city":"Winona Lake","state_province":"IN","zip":"46383","team_type":"College","latitude":"41.4757","longitude":"-87.0759","region_id":"13","status":"free"}},{"Team":{"name":"George Mason Club Quidditch","slug":"gmu","city":"Fairfax","state_province":"VA","zip":"22030","team_type":"College","latitude":"38.8458","longitude":"-77.3242","region_id":"2","status":"paid"}},{"Team":{"name":"Gamecock Quidditch","slug":"cocks-quidditch","city":"Columbia","state_province":"SC","zip":"29225","team_type":"College","latitude":"34.0005","longitude":"-81.035","region_id":"5","status":"paid"}},{"Team":{"name":"Fruita Middle Quidditch Club","slug":"fruita-quidditch","city":"Fruita","state_province":"CO","zip":"81521","team_type":"Youth Club","latitude":"39.1637","longitude":"-108.722","region_id":"3","status":"free"}},{"Team":{"name":"Florida State University Panama City Quidditch Team","slug":"florida-state-university-panama-city","city":"Panama City ","state_province":"FL","zip":"32405","team_type":"College","latitude":"30.1949","longitude":"-85.6727","region_id":"5","status":"free"}},{"Team":{"name":"Florida State Quidditch","slug":"florida-state-quidditch","city":"Tallahassee","state_province":"FL","zip":"32306","team_type":"College","latitude":"30.4422","longitude":"-84.2956","region_id":"5","status":"paid"}},{"Team":{"name":"Florida Gulf Coast Quidditch","slug":"fgcu-quidditch","city":"Fort Myers","state_province":"FL","zip":"33965","team_type":"College","latitude":"26.4737","longitude":"-81.9397","region_id":"5","status":"paid"}},{"Team":{"name":"Flagler Phoenixes","slug":"phoenixes","city":"St. Augustine","state_province":"FL","zip":"32084","team_type":"College","latitude":"29.8805","longitude":"-81.2984","region_id":"5","status":"free"}},{"Team":{"name":"Emerson College Quidditch","slug":"ecq-1","city":"Dorchester","state_province":"MA","zip":"02125","team_type":"College","latitude":"42.3153","longitude":"-71.0619","region_id":"1","status":"paid"}},{"Team":{"name":"Elizabeth Cardinals","slug":"cardinals-1","city":"Elizabeth","state_province":"CO","zip":"80107","team_type":"Youth Club","latitude":"39.3836","longitude":"-104.592","region_id":"3","status":"free"}},{"Team":{"name":"Duquesne Quidditch","slug":"duquidditch","city":"Pittsburgh","state_province":"PA","zip":"15282","team_type":"College","latitude":"40.4371","longitude":"-79.9929","region_id":"2","status":"free"}},{"Team":{"name":"Duke University Quidditch","slug":"duke-quidditch-1","city":"Durham","state_province":"NC","zip":"27708","team_type":"College","latitude":"35.9985","longitude":"-78.9394","region_id":"2","status":"paid"}},{"Team":{"name":"Drexel University Quidditch Club","slug":"drexel-2","city":"Philadelphia","state_province":"PA","zip":"19104","team_type":"College","latitude":"39.9597","longitude":"-75.2024","region_id":"2","status":"paid"}},{"Team":{"name":"District of Columbia Quidditch Club","slug":"dcqc-3","city":"arlington","state_province":"VA","zip":"22213","team_type":"Adult Club","latitude":"38.8954","longitude":"-77.1633","region_id":"2","status":"paid"}},{"Team":{"name":"Diablos Quidditch Club","slug":"diablos-2","city":"Los Angeles","state_province":"CA","zip":"90024","team_type":"Adult Club","latitude":"34.0637","longitude":"-118.441","region_id":"4","status":"paid"}},{"Team":{"name":"DeathRow Quidditch Team","slug":"deathrow","city":"Taylor","state_province":"TX","zip":"76574","team_type":"College","latitude":"30.5807","longitude":"-97.4401","region_id":"6","status":"free"}},{"Team":{"name":"Daphne HS Quidditch","slug":"dhs-quidditch","city":"Daphne","state_province":"AL","zip":"36526","team_type":"High School","latitude":"30.6197","longitude":"-87.8895","region_id":"5","status":"free"}},{"Team":{"name":"Creighton Quidditch","slug":"creighton-quidditch","city":"Omaha","state_province":"NE","zip":"68178","team_type":"College","latitude":"41.2649","longitude":"-95.9488","region_id":"3","status":"paid"}},{"Team":{"name":"Community High School Quidditch","slug":"chs-dragons","city":"Roanoke ","state_province":"VA","zip":"24013","team_type":"High School","latitude":"37.2677","longitude":"-79.9247","region_id":"2","status":"free"}},{"Team":{"name":"Columbia College Chicago Quidditch","slug":"columbia-college-quidditch","city":"Chicago","state_province":"IL","zip":"60605","team_type":"College","latitude":"41.8713","longitude":"-87.6277","region_id":"3","status":"paid"}},{"Team":{"name":"College of Charleston Quidditch","slug":"charleston-4","city":"Charleston","state_province":"SC","zip":"29424","team_type":"College","latitude":"32.7836","longitude":"-79.937","region_id":"5","status":"free"}},{"Team":{"name":"Club Quidditch at NC State","slug":"nc-state-1","city":"Apex","state_province":"NC","zip":"27539","team_type":"College","latitude":"35.6837","longitude":"-78.7895","region_id":"2","status":"paid"}},{"Team":{"name":"Cleveland State University Vikings","slug":"csu-vikings-1","city":"Cleveland ","state_province":"OH","zip":"44115","team_type":"College","latitude":"41.4946","longitude":"-81.667","region_id":"13","status":"paid"}},{"Team":{"name":"Clark University Ravenclarks","slug":"ravenclarks-2","city":"Worcester","state_province":"MA","zip":"01610","team_type":"College","latitude":"42.2492","longitude":"-71.8108","region_id":"1","status":"free"}},{"Team":{"name":"Chicago United Quidditch Club","slug":"chicago-united-1","city":"Chicago","state_province":"IL","zip":"60613","team_type":"Adult Club","latitude":"41.9543","longitude":"-87.6575","region_id":"3","status":"paid"}},{"Team":{"name":"Chestnut Hill College Quidditch","slug":"chestnut-hill-1","city":"Philadelphia","state_province":"PA","zip":"19118","team_type":"College","latitude":"40.0812","longitude":"-75.2006","region_id":"2","status":"free"}},{"Team":{"name":"Central Michigan Quidditch Club","slug":"central-centaurs-1","city":"Mt. Pleasant","state_province":"MI","zip":"48858","team_type":"College","latitude":"43.6013","longitude":"-84.7736","region_id":"13","status":"paid"}},{"Team":{"name":"Cascadia Quidditch","slug":"cascadia-3","city":"Seattle","state_province":"WA","zip":"98116","team_type":"Adult Club","latitude":"47.5746","longitude":"-122.393","region_id":"12","status":"paid"}},{"Team":{"name":"Carolina Wild Bulls","slug":"bulls","city":"Benson ","state_province":"NC","zip":"27504","team_type":"Adult Club","latitude":"35.4037","longitude":"-78.5421","region_id":"2","status":"free"}},{"Team":{"name":"Carnegie Mellon Quidditch Club","slug":"carnegie-mellon","city":"Pittsburgh","state_province":"PA","zip":"15289","team_type":"College","latitude":"40.4406","longitude":"-79.9961","region_id":"2","status":"paid"}},{"Team":{"name":"Carnage Quidditch","slug":"carnage","city":"Orlando","state_province":"FL","zip":"32828","team_type":"Adult Club","latitude":"28.5523","longitude":"-81.1795","region_id":"5","status":"paid"}},{"Team":{"name":"California Dobbys","slug":"ca-dobbys","city":"Berkeley","state_province":"CA","zip":"94704","team_type":"Adult Club","latitude":"37.8664","longitude":"-122.257","region_id":"4","status":"paid"}},{"Team":{"name":"Cal Quidditch ","slug":"cal-quidditch","city":"Berkeley","state_province":"CA","zip":"94709","team_type":"College","latitude":"37.8784","longitude":"-122.266","region_id":"4","status":"paid"}},{"Team":{"name":"Brophy College Preparatory ","slug":"brophy","city":"Phoenix","state_province":"AZ","zip":"85012","team_type":"High School","latitude":"33.5097","longitude":"-112.068","region_id":"4","status":"free"}},{"Team":{"name":"Brew City Warriors","slug":"brew-city","city":"Milwaukee","state_province":"WI","zip":"53212","team_type":"Adult Club","latitude":"43.0712","longitude":"-87.9084","region_id":"3","status":"paid"}},{"Team":{"name":"Brandeis Quidditch","slug":"brandeis-1","city":"Waltham","state_province":"MA","zip":"02453","team_type":"College","latitude":"42.3711","longitude":"-71.2344","region_id":"1","status":"paid"}},{"Team":{"name":"Bowling Green State University","slug":"bg-quidditch","city":"Bowling Green","state_province":"OH","zip":"43402","team_type":"College","latitude":"41.3815","longitude":"-83.6507","region_id":"13","status":"paid"}},{"Team":{"name":"Boston University Quidditch","slug":"bu","city":"Boston","state_province":"MA","zip":"02215","team_type":"College","latitude":"42.3471","longitude":"-71.1027","region_id":"1","status":"paid"}},{"Team":{"name":"Bosnyan Bearsharks","slug":"bosny","city":"Somerville","state_province":"MA","zip":"02145","team_type":"Adult Club","latitude":"42.3907","longitude":"-71.0929","region_id":"1","status":"paid"}},{"Team":{"name":"Boom Train","slug":"boom","city":"Normal","state_province":"IL","zip":"61761","team_type":"Adult Club","latitude":"40.5124","longitude":"-88.9883","region_id":"3","status":"paid"}},{"Team":{"name":"Boise State Abraxans Quidditch","slug":"boise-state","city":"Boise","state_province":"ID","zip":"83705","team_type":"College","latitude":"43.5851","longitude":"-116.219","region_id":"12","status":"free"}},{"Team":{"name":"Bobcat Quidditch","slug":"bobcats-1","city":"San Marcos ","state_province":"TX","zip":"78666","team_type":"College","latitude":"29.8754","longitude":"-97.9404","region_id":"6","status":"paid"}},{"Team":{"name":"Berea Community Middle\/High Sky Pirates","slug":"sky-pirates","city":"Berea","state_province":"KY","zip":"40403","team_type":"Youth Club","latitude":"37.5799","longitude":"-84.2749","region_id":"13","status":"free"}},{"Team":{"name":"BearTrain Quidditch","slug":"beartrain","city":"Ann Arbor","state_province":"MI","zip":"48104","team_type":"College","latitude":"42.2694","longitude":"-83.7282","region_id":"13","status":"paid"}},{"Team":{"name":"Baylor University","slug":"the-bears","city":"Waco","state_province":"TX","zip":"76798","team_type":"College","latitude":"31.5446","longitude":"-97.1192","region_id":"6","status":"paid"}},{"Team":{"name":"Bay Area Breakers","slug":"breakers","city":"San Jose","state_province":"CA","zip":"95112","team_type":"Adult Club","latitude":"37.3414","longitude":"-121.88","region_id":"4","status":"paid"}},{"Team":{"name":"Ball State Cardinals","slug":"ball-state","city":"Muncie","state_province":"IN","zip":"47306","team_type":"College","latitude":"40.1927","longitude":"-85.4102","region_id":"13","status":"paid"}},{"Team":{"name":"Austin Quidditch","slug":"aq","city":"Austin","state_province":"TX","zip":"78712-1401","team_type":"College","latitude":"30.2858","longitude":"-97.7349","region_id":"6","status":"paid"}},{"Team":{"name":"Atlantic Dragons","slug":"dragons-4","city":"Brooklyn","state_province":"NY","zip":"11226","team_type":"Adult Club","latitude":"40.6467","longitude":"-73.957","region_id":"1","status":"paid"}},{"Team":{"name":"Arizona State University","slug":"arizona-state","city":"Tempe","state_province":"AZ","zip":"85281","team_type":"College","latitude":"33.4227","longitude":"-111.926","region_id":"4","status":"paid"}},{"Team":{"name":"Arizona Scorpions","slug":"scorpions","city":"Scottsdale","state_province":"AZ","zip":"85254","team_type":"Adult Club","latitude":"33.6165","longitude":"-111.955","region_id":"4","status":"paid"}},{"Team":{"name":"Appalachian State Quidditch","slug":"app-state","city":"Boone","state_province":"NC","zip":"28607","team_type":"College","latitude":"36.2142","longitude":"-81.666","region_id":"2","status":"paid"}},{"Team":{"name":"Anteater Quidditch","slug":"anteaters","city":"Irvine ","state_province":"CA","zip":"92697-5125","team_type":"College","latitude":"33.6508","longitude":"-117.826","region_id":"4","status":"paid"}}];
+var team_zips = [];
+var myOptions = {
+    zoom: 3,
+    center: latlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+}; 
+var geocoder = new google.maps.Geocoder();
+var infowindow = new google.maps.InfoWindow();
+var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+for(var i=0; i<teams.length;i++){
+	team_zips.push(teams[i]['Team']['zip']);
+	latlng = new google.maps.LatLng(teams[i]['Team']['latitude'],teams[i]['Team']['longitude']);
+	teams[i]['Team']['marker'] = new google.maps.Marker({
+                map: map,
+                position: latlng,
+                title: teams[i]['Team']['name'],
+		clickable: true
+	});
+	google.maps.event.addListener(teams[i]['Team']['marker'], 'mouseover',function() { 
+		infowindow.setContent(this.title);
+		infowindow.open(map,this); 
+	});
+}
+
+jQuery.get("/js/regions.xml", {}, function(data) {
+    jQuery(data).find("region").each(function() {
+      var color = this.getAttribute('color');
+      $(this).find("state").each(function() {
+      var points = this.getElementsByTagName("point");
+      var pts = [];
+      for (var i = 0; i < points.length; i++) {
+        pts[i] = new google.maps.LatLng(parseFloat(points[i].getAttribute("lat")), parseFloat(points[i].getAttribute("lng")));
+      }
+      var poly = new google.maps.Polygon({
+        paths: pts,
+	strokeWeight: 1,
+        strokeColor: '#000000',
+        strokeOpacity: 1,
+        fillColor: color,
+        fillOpacity: 0.35
+      });
+      polys.push(poly);
+      poly.setMap(map);
+    });
+   });
+});
+
+var mapMoveTimer;
+google.maps.event.addListenerOnce(map,'idle',function() {
+	refreshInfo();
+	google.maps.event.addListener(map,'zoom_changed',function(){
+		clearTimeout(mapMoveTimer);
+		mapMoveTimer = setTimeout(function() {
+			refreshInfo();
+		},500);
+	});
+        google.maps.event.addListener(map,'center_changed',function(){
+                clearTimeout(mapMoveTimer);
+                mapMoveTimer = setTimeout(function() {
+                        refreshInfo();
+                },500);
+        });
+	$(".filter").click(function() { selectFilter() });
+	$(".team_status").click(function() { selectFilter() });
+	$(".team_type").click(function() { selectFilter() });
+});
+
+
+
+$("#team_search").keyup(function (e) {
+    if (e.keyCode == 13) {
+        codeAddress();
+    }
+});
+
+
+function codeAddress() {
+  var address = document.getElementById('team_search').value;
+  if(address !="") {
+  geocoder.geocode( { 'address': address}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      	map.setCenter(results[0].geometry.location);
+	map.setZoom(8);
+    } else {
+      alert('Geocode was not successful for the following reason: ' + status);
+    }
+  });
+ }
+}
+
+function selectFilter() {
+	var types = [];
+	var statuses = [];
+	var regions = [];
+	$("input.team_type:checked").each(function() {
+		types.push($(this).val());
+	});
+	$("input.team_status:checked").each(function() {
+		statuses.push($(this).val());
+	});
+	$("input.filter:checked").each(function() {
+		regions.push($(this).val());
+	});
+
+	for(var i=0; i<teams.length;i++) {
+		teams[i]['Team']['marker'].setVisible(true);
+		if(types.length>0 && types.indexOf(teams[i]['Team']['team_type']) < 0){
+   		teams[i]['Team']['marker'].setVisible(false);
+		}
+		if(statuses.length>0 && statuses.indexOf(teams[i]['Team']['status']) < 0){
+   		teams[i]['Team']['marker'].setVisible(false);
+		}
+		if(regions.length>0 && regions.indexOf(teams[i]['Team']['region_id']) < 0){
+     	teams[i]['Team']['marker'].setVisible(false);
+		}
+	}
+	refreshInfo();
+}
+
+function refreshInfo() {
+	//visible_teams =[];
+	$('#teams_list').hide();
+	var newurl = "<table class='teams-display'>";
+	for(var i = teams.length, bounds = map.getBounds(); i--;) {
+    		if( bounds.contains(teams[i]['Team']['marker'].getPosition()) && teams[i]['Team']['marker'].getVisible()){
+			newurl+="<tr id=t"+i+"><td><a href='/team/"+teams[i]['Team']['slug']+"/'>"+teams[i]['Team']['name']+"</a></td>";
+			newurl+="<td>"+teams[i]['Team']['city']+", "+teams[i]['Team']['state_province']+"</td>";
+			newurl+="<td>"+teams[i]['Team']['team_type']+"</td>";
+
+
+			var statusText = (teams[i]['Team']['status'] == 'paid') ? 'Official Team' : 'Unofficial Team'
+			newurl+="<td>"+statusText+"</td></tr>";
+
+			//visible_teams.push(teams[i]);
+    		}
+	}
+	newurl+="</table>";
+	$('#teams_list').html(newurl);
+        $('#teams_list').fadeIn();
+	$('#teams_list tr').mouseover(function() { 
+		teams[$(this).attr('id').substring(1)]['Team']['marker'].setAnimation(google.maps.Animation.BOUNCE);
+	});
+	$('#teams_list tr').mouseout(function() {
+                teams[$(this).attr('id').substring(1)]['Team']['marker'].setAnimation(null);
+        });
+}
+
+
+	/*$('#team_search').autocomplete({
+                source: team_zips,
+        });*/
+
+
+});
+</script>
+				</div>
+		
+		</div>
+
+        <div id="footer_wrapper">
+	<div id="footer">
+		<img src="/img/logo_white.png" alt="USQ" />
+		<div id="footer-info">
+			<p class="sans" style="margin-top: 0;">
+US Quidditch (USQ) is a magical 501(c)3 non-profit dedicated to governing the sport of quidditch and advancing the sport by organizing events and programs that build community and empower all genders to compete together. Inspired by the Harry Potter novels, USQ serves athletes and fans, from sport-lovers to book-lovers and everything in between.
+                        </p>
+			<p class="sans">USQ and its activities are not licensed by, sponsored by or associated with Warner Bros., J.K. Rowling, or their affiliates. "Quidditch", "Harry Potter", and all related names, characters and indicia are trademarks of and <br/> &copy; Warner Bros.  - Harry Potter publishing rights &copy; J.K. Rowling.</p>
+			<p class="sans">Copyright &copy; 2020 USQ, Inc.</p>
+		</div>
+		<div class="hide-mobile">
+					<div style="width: auto; float: left; margin: 0 20px; height: 100%">
+				<h3>About</h3>
+				<ul>
+											<li><a href="/about/mission">Mission</a></li>
+											<li><a href="/about/history/">History</a></li>
+											<li><a href="/about/leadership/">Leadership</a></li>
+											<li><a href="/about/press/">Press</a></li>
+											<li><a href="/about/rules/">Rules</a></li>
+											<li><a href="/about/contact">Contact</a></li>
+											<li><a href="/about/contact/join-our-email-list">Email List</a></li>
+									</ul>
+			</div>
+					<div style="width: auto; float: left; margin: 0 20px; height: 100%">
+				<h3>NEWS</h3>
+				<ul>
+											<li><a href="http://www.usquidditch.org/news/">NEWS</a></li>
+									</ul>
+			</div>
+					<div style="width: auto; float: left; margin: 0 20px; height: 100%">
+				<h3>League</h3>
+				<ul>
+											<li><a href="/teams">United States</a></li>
+											<li><a href="/standings">Standings</a></li>
+											<li><a href="/events/calendar">Events Calendar</a></li>
+											<li><a href="https://www.usquidditch.org/events/view/us-quidditch-cup-12">National Championship</a></li>
+											<li><a href="/events/special/regional-championships">Regionals</a></li>
+									</ul>
+			</div>
+					<div style="width: auto; float: left; margin: 0 20px; height: 100%">
+				<h3>Get Involved</h3>
+				<ul>
+											<li><a href="/get-involved/start-a-team/">Start a Team</a></li>
+											<li><a href="/get-involved/membership/">Membership</a></li>
+											<li><a href="/get-involved/volunteer/">Volunteer</a></li>
+											<li><a href="/get-involved/careers/">Careers</a></li>
+											<li><a href="/get-involved/officials/">Officials</a></li>
+											<li><a href="/about/donate-to-us-quidditch">Donate</a></li>
+									</ul>
+			</div>
+				</div>
+	</div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65732229-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+	</div>
+</body>
+</html>

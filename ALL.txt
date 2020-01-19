@@ -1,0 +1,508 @@
+WVU Summit QC13 10 - 7
+WVU Summit QC12 4 - 10
+WVU Summit QC11 7 - 18
+WVU Summit QC10 2 - 5
+WVU Summit QC9 1 - 10
+WVU Summit WC8 3 - 7
+Wooster Scottish Nationals QC13 0 - 0
+Wooster Scottish Nationals QC12 2 - 17
+Wooster Scottish Nationals QC11 0 - 21
+Wooster Scottish Nationals QC10 1 - 10
+Wooster Scottish Nationals QC9 4 - 12
+Wooster Scottish Nationals WC8 4 - 12
+Wizengamot Quidditch At VCU QC13 0 - 0
+Wizards of Westwood QC13 0 - 0
+Wisconsin Quidditch QC13 0 - 0
+Wichita State University QC13 0 - 0
+WestWoods Quidditch QC13 0 - 0
+Western Washington Wyverns QC13 0 - 2
+Western Washington Wyverns QC12 0 - 9
+Western Washington Wyverns QC11 1 - 4
+Western Washington Wyverns QC10 4 - 7
+Western Washington Wyverns QC9 3 - 8
+Western Washington Wyverns WC8 11 - 5
+Western Carolina University Chimeras QC13 0 - 0
+Webster Quidditch QC13 0 - 0
+Virginia Quidditch Club QC13 0 - 0
+Victoria Spartans QC13 0 - 0
+Vassar Butterbeer Broooers QC13 0 - 0
+Valkyrie Quidditch QC13 0 - 0
+UTSA Club Quidditch QC13 6 - 4
+UTSA Club Quidditch QC12 10 - 9
+UTSA Club Quidditch QC11 18 - 11
+Utah State Quidditch Club QC13 11 - 3
+USM Quidditch QC13 0 - 0
+USM Quidditch QC12 1 - 11
+University of Vermont Quidditch Club QC13 4 - 8
+University of Utah Quidditch QC13 4 - 9
+University of Toledo Quidditch QC13 0 - 0
+University of South Florida Quidditch QC13 0 - 0
+University of South Florida Quidditch QC12 4 - 19
+University of South Florida Quidditch QC11 0 - 13
+University of South Florida Quidditch QC10 0 - 10
+University of South Florida Quidditch QC9 9 - 8
+University of South Florida Quidditch WC8 10 - 9
+University of Rochester Thestrals QC13 5 - 5
+University of Rochester Thestrals QC12 14 - 4
+University of Rochester Thestrals QC11 19 - 7
+University of Rochester Thestrals QC10 14 - 10
+University of Rochester Thestrals QC9 8 - 17
+University of Rochester Thestrals WC8 13 - 13
+University of Northern Colorado QC13 0 - 5
+University of Northern Colorado QC12 2 - 10
+University of Northern Colorado QC11 7 - 11
+University of Northern Colorado QC10 10 - 12
+University of Northern Colorado QC9 5 - 16
+University of Northern Colorado WC8 4 - 5
+University of North Carolina Wilmington QC13 3 - 7
+University of Miami QC13 0 - 0
+University of Miami QC12 2 - 7
+University of Miami QC11 16 - 5
+University of Miami QC10 12 - 8
+University of Miami QC9 23 - 10
+University of Miami WC8 15 - 7
+University of Massachusetts Lowell Riverhawks QC13 0 - 0
+University of Massachusetts Amherst Death Beaters QC13 0 - 0
+University of Florida Club Quidditch QC13 7 - 3
+University of California Los Angeles QC13 3 - 1
+University of California Los Angeles QC12 15 - 8
+University of California Los Angeles QC11 28 - 13
+University of California Los Angeles QC10 15 - 9
+University of California Los Angeles QC9 17 - 8
+University of California Los Angeles WC8 15 - 3
+University of Arkansas QC13 0 - 0
+University of Arizona Quidditch QC13 0 - 7
+University of Arizona Quidditch QC12 0 - 3
+University of Arizona Quidditch QC11 2 - 13
+University of Arizona Quidditch QC10 4 - 12
+University of Arizona Quidditch QC9 3 - 16
+University of Arizona Quidditch WC8 1 - 12
+UNCG Spartans Quidditch QC13 0 - 0
+Twin Cities Quidditch Club QC13 3 - 11
+Twin Cities Quidditch Club QC12 18 - 11
+Twin Cities Quidditch Club QC11 21 - 11
+Twin Cities Quidditch Club QC10 23 - 9
+Twin Cities Quidditch Club QC9 7 - 13
+Twin Cities Quidditch Club WC8 6 - 11
+TVMS Quidditch Club QC13 0 - 0
+Tulane University Club Quidditch QC13 0 - 0
+Tulane University Club Quidditch QC12 0 - 16
+Tufts University Tufflepuffs QC13 15 - 4
+Tufts University Tufflepuffs QC12 21 - 9
+Tufts University Tufflepuffs QC11 13 - 10
+Tufts University Tufflepuffs QC10 10 - 12
+Tufts University Tufflepuffs QC9 15 - 10
+Tufts University Tufflepuffs WC8 28 - 6
+Tidewater Trident Quidditch  QC13 0 - 0
+The Worcester Wargs QC13 0 - 0
+The Warriors QC13 0 - 0
+The University of North Carolina at Chapel Hill Quidditch QC13 0 - 0
+The Silver Phoenix QC13 0 - 0
+The Rogues QC13 0 - 0
+The Quidditch Club of ODU QC13 0 - 0
+The Ohio State University QC13 0 - 0
+The Ohio State University QC12 3 - 10
+The Lost Boys Quidditch Club QC13 14 - 1
+The Long Beach Funky Quaffles QC13 4 - 9
+The Long Beach Funky Quaffles QC12 18 - 17
+The Long Beach Funky Quaffles QC11 13 - 12
+The Long Beach Funky Quaffles QC10 17 - 13
+The Long Beach Funky Quaffles QC9 7 - 17
+The Long Beach Funky Quaffles WC8 7 - 17
+The Hunter Hawks QC13 0 - 0
+The Fighting Farmers of America QC13 0 - 0
+The Brave Gryffindors Quidditch Team  QC13 0 - 0
+Texas Tech Quidditch Club QC13 0 - 0
+Texas State University - San Marcos QC13 0 - 0
+Texas State University - San Marcos QC12 29 - 12
+Texas State University - San Marcos QC11 32 - 6
+Texas State University - San Marcos QC10 37 - 8
+Texas State University - San Marcos QC9 27 - 6
+Texas State University - San Marcos WC8 26 - 5
+Texas State Quidditch QC13 8 - 4
+Texas Quidditch QC13 0 - 0
+Texas Hill Country Heat QC13 0 - 0
+Texas Cavalry QC13 0 - 0
+Texas A&M Quidditch QC13 0 - 0
+Terminus Quidditch Atlanta QC13 0 - 0
+Team Bumblebee QC13 0 - 0
+Syracuse Snare Quidditch Club QC13 4 - 6
+Syracuse Snare Quidditch Club QC12 8 - 13
+Syracuse Snare Quidditch Club QC11 12 - 10
+Syracuse Snare Quidditch Club QC10 5 - 15
+Syracuse Snare Quidditch Club QC9 8 - 11
+Syracuse Snare Quidditch Club WC8 4 - 12
+Sunrise Spellcasters QC13 0 - 0
+Sun Devil Quidditch QC13 0 - 0
+Sun Devil Quidditch QC12 0 - 16
+Sun Devil Quidditch QC11 4 - 21
+Sun Devil Quidditch QC10 0 - 13
+Sun Devil Quidditch QC9 1 - 16
+Stony Brook Quidditch QC13 0 - 0
+Stony Brook Quidditch QC12 0 - 7
+Stony Brook Quidditch QC11 1 - 13
+Stony Brook Quidditch QC10 2 - 11
+Stony Brook Quidditch QC9 8 - 11
+Stony Brook Quidditch WC8 3 - 11
+Stockton University Ospreys QC13 0 - 0
+Steel City Quidditch Club QC13 0 - 0
+Stanford Quidditch QC13 0 - 0
+Stanford Quidditch QC12 0 - 8
+Stanford Quidditch QC11 2 - 13
+Stanford Quidditch QC10 3 - 11
+Stanford Quidditch QC9 5 - 13
+Stanford Quidditch WC8 6 - 12
+Spyglass Sorcerers QC13 0 - 0
+Space Cowboys Quidditch QC13 6 - 6
+Southern Storm QC13 5 - 3
+Southern Storm QC12 13 - 13
+Southern Storm QC11 14 - 8
+Southern Storm QC10 10 - 8
+Southern Storm QC9 12 - 8
+Southern Storm WC8 7 - 12
+Southern Illinois University QC13 0 - 0
+Skidmore Quidditch QC13 1 - 2
+Skidmore Quidditch QC12 3 - 6
+Skidmore Quidditch QC11 2 - 10
+Skidmore Quidditch QC10 2 - 6
+Skidmore Quidditch QC9 0 - 1
+Skidmore Quidditch WC8 3 - 11
+SIUE Quidditch Club QC13 8 - 10
+SIUE Quidditch Club QC12 11 - 11
+SIUE Quidditch Club QC11 7 - 15
+SIUE Quidditch Club QC10 4 - 10
+Silicon Valley Vipers QC13 5 - 8
+Silicon Valley Vipers QC12 13 - 14
+Silicon Valley Vipers QC11 14 - 11
+Silicon Valley Vipers QC10 9 - 11
+Silicon Valley Vipers QC9 22 - 14
+Silicon Valley Venom QC13 0 - 0
+SHSU Quidditch QC13 5 - 6
+SHSU Quidditch QC12 14 - 7
+SHSU Quidditch QC11 13 - 9
+SHSU Quidditch QC10 16 - 16
+SHSU Quidditch QC9 18 - 13
+SHSU Quidditch WC8 17 - 15
+San Jose State University Spartan Quidditch QC13 0 - 1
+San Jose State University Spartan Quidditch QC12 4 - 13
+San Jose State University Spartan Quidditch QC11 12 - 14
+San Jose State University Spartan Quidditch QC10 5 - 10
+San Jose State University Spartan Quidditch QC9 0 - 16
+San Jose State University Spartan Quidditch WC8 10 - 10
+Salt Lake Quidditch Club QC13 9 - 1
+Salisbury University Quidditch Club QC13 3 - 11
+Salisbury University Quidditch Club QC12 1 - 10
+Salisbury University Quidditch Club QC11 2 - 16
+Saint Paul's Werewolves QC13 0 - 0
+Rutgers University Quidditch  QC13 0 - 0
+RPI Quidditch QC13 9 - 3
+RPI Quidditch QC12 22 - 6
+RPI Quidditch QC11 16 - 12
+RPI Quidditch QC10 22 - 6
+RPI Quidditch QC9 19 - 6
+RPI Quidditch WC8 14 - 1
+Rose City Reapers QC13 0 - 0
+Rollins College Quidditch Team QC13 0 - 0
+Rochester Hailstorm QC13 0 - 0
+Rochester Hailstorm QC12 11 - 9
+River City Riders QC13 0 - 0
+RIT Dark Marks QC13 10 - 8
+RIT Dark Marks QC12 9 - 18
+RIT Dark Marks QC11 13 - 9
+RIT Dark Marks QC10 9 - 17
+RIT Dark Marks QC9 6 - 13
+RIT Dark Marks WC8 16 - 6
+Richmond Quidditch QC13 7 - 6
+Richmond Quidditch QC12 9 - 11
+Richmond Quidditch QC11 17 - 13
+Richmond Quidditch QC10 13 - 20
+Richmond Quidditch QC9 17 - 19
+Richmond Quidditch WC8 21 - 11
+Revolution QC13 10 - 5
+Rain City Raptors QC13 5 - 2
+Rain City Raptors QC12 16 - 7
+Rain City Raptors QC11 15 - 11
+Rain City Raptors QC10 7 - 10
+Rain City Raptors QC9 14 - 5
+Quidditch Club of Pittsburgh QC13 8 - 6
+Quidditch Club of Pittsburgh QC12 7 - 10
+Quidditch Club of Pittsburgh QC11 8 - 6
+Quidditch Club of Pittsburgh QC10 4 - 11
+Quidditch Club of Old Dominion University  QC13 0 - 0
+Quidditch Club Dallas QC13 3 - 4
+Quidditch Club Dallas QC12 3 - 13
+Quidditch Club Boston QC13 0 - 0
+Quidditch Club Boston QC12 16 - 4
+Quidditch Club Boston QC11 18 - 4
+Quidditch Club Boston QC10 25 - 1
+Quidditch Club Boston QC9 29 - 1
+Quidditch Club at Virginia Tech QC13 9 - 7
+Quidditch Club at Virginia Tech QC12 14 - 14
+Quidditch Club at Virginia Tech QC11 9 - 21
+Quidditch Club at Iowa State QC13 0 - 0
+Quidditch Association of Carleton QC13 0 - 0
+Purdue Intercollegiate Quidditch Association QC13 0 - 0
+Plant High School Panthers QC13 0 - 0
+Plant High School Panthers QC13 0 - 0
+Piedmont Quidditch  QC13 0 - 0
+Philadelphia Freedom Quidditch Club QC13 10 - 6
+Philadelphia Freedom Quidditch Club QC12 11 - 15
+Philadelphia Freedom Quidditch Club QC11 13 - 17
+Philadelphia Freedom Quidditch Club QC10 15 - 12
+Philadelphia Freedom Quidditch Club QC9 18 - 11
+Philadelphia Freedom Quidditch Club WC8 10 - 14
+Penn State Quidditch QC13 0 - 0
+Panama City Firebolts QC13 0 - 0
+Oklahoma State University QC13 0 - 3
+Oklahoma State University QC12 2 - 10
+Oklahoma State University QC11 8 - 15
+Oklahoma State University QC10 16 - 11
+Oklahoma State University QC9 35 - 11
+Oklahoma State University WC8 21 - 11
+Ohio University Quidditch Club QC13 6 - 9
+Ohio University Quidditch Club QC12 20 - 6
+Ohio University Quidditch Club QC11 18 - 13
+Ohio University Quidditch Club QC10 8 - 14
+Ohio University Quidditch Club QC9 9 - 15
+Ohio University Quidditch Club WC8 10 - 16
+Ohio Apollos QC13 7 - 2
+Northern Arizona University Narwhals QC13 0 - 0
+Northern Arizona University Narwhals QC12 0 - 1
+Northern Arizona University Narwhals QC11 1 - 0
+Northern Arizona University Narwhals QC10 1 - 0
+Northern Arizona University Narwhals QC9 1 - 0
+Northern Arizona University Narwhals WC8 13 - 6
+Nomads QC13 0 - 0
+Nomads QC12 4 - 0
+Nomads QC11 23 - 4
+New York University Quidditch QC13 10 - 0
+New York University Quidditch QC12 22 - 5
+New York University Quidditch QC11 14 - 13
+New York University Quidditch QC10 12 - 15
+New York University Quidditch QC9 18 - 7
+New York University Quidditch WC8 29 - 11
+New York Quidditch Club QC13 0 - 0
+New York Pigeons QC13 0 - 9
+New York Pigeons QC12 0 - 10
+New York Pigeons QC11 3 - 12
+New York Pigeons QC10 2 - 10
+New York Badassilisks QC13 0 - 0
+Nearly Headless Knights QC13 1 - 4
+Nearly Headless Knights QC12 18 - 12
+Nearly Headless Knights QC11 11 - 12
+Nearly Headless Knights QC10 1 - 9
+Mizzou Club Quidditch  QC13 12 - 4
+Minnesota Quidditch QC13 0 - 0
+Mile High Quidditch Club QC13 0 - 0
+Middlebury College Quidditch QC13 0 - 0
+Michigan State Quidditch QC13 0 - 0
+Michigan Quidditch Team QC13 13 - 1
+Michigan Quidditch Team QC12 22 - 7
+Michigan Quidditch Team QC11 19 - 11
+Michigan Quidditch Team QC10 21 - 10
+Michigan Quidditch Team QC9 30 - 4
+Michigan Quidditch Team WC8 20 - 5
+Miami University (OH) Quidditch QC13 11 - 4
+Miami University (OH) Quidditch QC12 22 - 3
+Miami University (OH) Quidditch QC11 21 - 11
+Miami University (OH) Quidditch QC10 12 - 14
+McNary Celtics QC13 0 - 0
+Maui Mudbloods QC13 0 - 0
+Maryville University Quidditch  QC13 4 - 7
+Maryville University Quidditch  QC12 3 - 7
+Maryland Quidditch QC13 14 - 1
+Maryland Quidditch QC12 32 - 5
+Maryland Quidditch QC11 31 - 4
+Maryland Quidditch QC10 28 - 5
+Maryland Quidditch QC9 25 - 7
+Maryland Quidditch WC8 26 - 1
+Marquette University Quidditch QC13 5 - 9
+Marquette University Quidditch QC12 7 - 12
+Marquette University Quidditch QC11 9 - 19
+Marquette University Quidditch QC10 14 - 17
+Marquette University Quidditch QC9 12 - 3
+Marquette University Quidditch WC8 6 - 7
+Macaulay Honors College Marauders QC13 6 - 8
+Macaulay Honors College Marauders QC12 13 - 13
+Macaulay Honors College Marauders QC11 15 - 13
+Macaulay Honors College Marauders QC10 12 - 9
+Macaulay Honors College Marauders QC9 7 - 16
+Macaulay Honors College Marauders WC8 9 - 11
+Loyola University Chicago QC13 0 - 0
+Loyola New Orleans Quidditch QC13 0 - 0
+Loyola New Orleans Quidditch QC12 5 - 9
+Loveland Flyin’ Frogmen QC13 0 - 0
+Louisiana State University QC13 0 - 0
+Los Angeles Gambits QC13 0 - 0
+Long Beach Bruisers QC13 0 - 0
+Lone Star Quidditch Club QC13 6 - 7
+Lone Star Quidditch Club QC12 14 - 10
+Lone Star Quidditch Club QC11 25 - 7
+Lone Star Quidditch Club QC10 23 - 10
+Lone Star Quidditch Club QC9 29 - 5
+Lone Star Quidditch Club WC8 33 - 1
+Lock Haven University Quidditch QC13 0 - 0
+Lock Haven University Quidditch QC12 8 - 14
+Lock Haven University Quidditch QC11 9 - 16
+Lock Haven University Quidditch QC10 10 - 16
+Lock Haven University Quidditch QC9 12 - 14
+Lock Haven University Quidditch WC8 4 - 15
+Lakewood Spartans QC13 0 - 0
+Kent State Quidditch QC13 0 - 0
+Kansas Quidditch QC13 9 - 2
+Kansas Quidditch QC12 24 - 5
+Kansas Quidditch QC11 31 - 6
+Kansas Quidditch QC10 28 - 9
+Kansas Quidditch QC9 18 - 6
+Kansas Quidditch WC8 15 - 3
+Johns Hopkins Quidditch Club QC13 0 - 0
+James Madison University Quidditch QC13 8 - 5
+James Madison University Quidditch QC12 12 - 10
+James Madison University Quidditch QC11 11 - 16
+James Madison University Quidditch QC10 6 - 13
+James Madison University Quidditch QC9 11 - 9
+Iowa Quidditch Club QC13 0 - 0
+Indiana University Quidditch Club QC13 5 - 9
+Indiana University Quidditch Club QC12 4 - 14
+Indiana University Quidditch Club QC11 1 - 14
+Indiana University Quidditch Club QC10 10 - 14
+Indiana State University Quidditch QC13 4 - 6
+Illinois State University Firebirds QC13 10 - 6
+Illinois State University Firebirds QC12 9 - 11
+Illinois State University Firebirds QC11 4 - 15
+Illinois State University Firebirds QC10 10 - 18
+Illinois State University Firebirds QC9 18 - 14
+Illinois State University Firebirds WC8 5 - 14
+Illini Ridgebacks Quidditch QC13 9 - 4
+Illini Ridgebacks Quidditch QC12 8 - 16
+Houston Cosmos Quidditch Club QC13 1 - 2
+Houston Cosmos Quidditch Club QC12 9 - 16
+Houston Cosmos Quidditch Club QC11 8 - 11
+Houston Cosmos Quidditch Club QC10 4 - 16
+Hofstra University Flying Dutchmen QC13 0 - 0
+Hofstra University Flying Dutchmen QC12 5 - 13
+Hofstra University Flying Dutchmen QC11 12 - 15
+Hofstra University Flying Dutchmen QC10 7 - 14
+Hofstra University Flying Dutchmen QC9 14 - 10
+Hofstra University Flying Dutchmen WC8 16 - 11
+Harvard Horntails QC13 11 - 1
+Harvard Horntails QC12 9 - 13
+Harvard Horntails QC11 16 - 10
+Harvard Horntails QC10 9 - 10
+Harvard Horntails QC9 4 - 10
+Harvard Horntails WC8 9 - 17
+Grand Valley Grindylows QC13 5 - 10
+Grace Quidditch Club QC13 0 - 0
+George Mason Club Quidditch QC13 6 - 7
+George Mason Club Quidditch QC12 13 - 9
+George Mason Club Quidditch QC11 8 - 13
+George Mason Club Quidditch QC10 10 - 6
+George Mason Club Quidditch QC9 15 - 17
+Gamecock Quidditch QC13 4 - 2
+Gamecock Quidditch QC12 14 - 8
+Gamecock Quidditch QC11 5 - 5
+Fruita Middle Quidditch Club QC13 0 - 0
+Florida State University Panama City Quidditch Team QC13 0 - 0
+Florida State Quidditch QC13 0 - 0
+Florida Gulf Coast Quidditch QC13 0 - 4
+Florida Gulf Coast Quidditch QC12 13 - 17
+Florida Gulf Coast Quidditch QC11 4 - 11
+Florida Gulf Coast Quidditch QC10 2 - 1
+Florida Gulf Coast Quidditch QC9 11 - 8
+Florida Gulf Coast Quidditch WC8 5 - 6
+Flagler Phoenixes QC13 0 - 0
+Emerson College Quidditch QC13 0 - 0
+Elizabeth Cardinals QC13 0 - 0
+Duquesne Quidditch QC13 0 - 0
+Duke University Quidditch QC13 0 - 0
+Drexel University Quidditch Club QC13 0 - 0
+District of Columbia Quidditch Club QC13 0 - 0
+Diablos Quidditch Club QC13 0 - 0
+DeathRow Quidditch Team QC13 0 - 0
+DeathRow Quidditch Team QC12 2 - 16
+DeathRow Quidditch Team QC11 5 - 18
+DeathRow Quidditch Team QC10 3 - 21
+Daphne HS Quidditch QC13 0 - 0
+Creighton Quidditch QC13 8 - 3
+Creighton Quidditch QC12 10 - 10
+Creighton Quidditch QC11 6 - 14
+Creighton Quidditch QC10 5 - 9
+Community High School Quidditch QC13 0 - 0
+Columbia College Chicago Quidditch QC13 5 - 10
+Columbia College Chicago Quidditch QC12 3 - 10
+College of Charleston Quidditch QC13 0 - 0
+Club Quidditch at NC State QC13 6 - 8
+Club Quidditch at NC State QC12 6 - 14
+Cleveland State University Vikings QC13 0 - 0
+Clark University Ravenclarks QC13 0 - 0
+Chicago United Quidditch Club QC13 0 - 0
+Chestnut Hill College Quidditch QC13 0 - 0
+Central Michigan Quidditch Club QC13 0 - 0
+Cascadia Quidditch QC13 0 - 0
+Carolina Wild Bulls QC13 0 - 0
+Carnegie Mellon Quidditch Club QC13 0 - 8
+Carnegie Mellon Quidditch Club QC12 0 - 12
+Carnegie Mellon Quidditch Club QC11 1 - 12
+Carnegie Mellon Quidditch Club QC10 0 - 7
+Carnegie Mellon Quidditch Club QC9 2 - 11
+Carnegie Mellon Quidditch Club WC8 2 - 9
+Carnage Quidditch QC13 5 - 4
+Carnage Quidditch QC12 13 - 10
+California Dobbys QC13 0 - 0
+Cal Quidditch  QC13 0 - 0
+Brophy College Preparatory  QC13 0 - 0
+Brew City Warriors QC13 0 - 0
+Brandeis Quidditch QC13 0 - 0
+Bowling Green State University QC13 9 - 4
+Bowling Green State University QC12 11 - 16
+Bowling Green State University QC11 14 - 12
+Bowling Green State University QC10 29 - 3
+Bowling Green State University QC9 33 - 5
+Bowling Green State University WC8 22 - 7
+Boston University Quidditch QC13 11 - 8
+Boston University Quidditch QC12 16 - 10
+Boston University Quidditch QC11 19 - 9
+Boston University Quidditch QC10 15 - 10
+Boston University Quidditch QC9 19 - 7
+Boston University Quidditch WC8 15 - 16
+Bosnyan Bearsharks QC13 6 - 3
+Bosnyan Bearsharks QC12 19 - 9
+Bosnyan Bearsharks QC11 23 - 6
+Bosnyan Bearsharks QC10 18 - 6
+Boom Train QC13 7 - 2
+Boom Train QC12 27 - 4
+Boise State Abraxans Quidditch QC13 0 - 0
+Bobcat Quidditch QC13 0 - 0
+BearTrain Quidditch QC13 5 - 9
+Baylor University QC13 1 - 8
+Baylor University QC12 15 - 10
+Baylor University QC11 9 - 15
+Baylor University QC10 9 - 15
+Baylor University QC9 12 - 6
+Baylor University WC8 27 - 5
+Bay Area Breakers QC13 6 - 5
+Bay Area Breakers QC12 20 - 9
+Ball State Cardinals QC13 11 - 7
+Ball State Cardinals QC12 11 - 14
+Ball State Cardinals QC11 20 - 8
+Ball State Cardinals QC10 24 - 10
+Ball State Cardinals QC9 31 - 8
+Ball State Cardinals WC8 19 - 8
+Austin Quidditch QC13 0 - 0
+Atlantic Dragons QC13 0 - 0
+Arizona State University QC13 2 - 4
+Arizona State University QC12 13 - 8
+Arizona State University QC11 24 - 6
+Arizona State University QC10 23 - 2
+Arizona State University QC9 22 - 7
+Arizona State University WC8 12 - 11
+Arizona Scorpions QC13 12 - 9
+Arizona Scorpions QC12 7 - 5
+Appalachian State Quidditch QC13 0 - 12
+Appalachian State Quidditch QC12 5 - 17
+Anteater Quidditch QC13 4 - 4
+Anteater Quidditch QC12 13 - 11
+Anteater Quidditch QC11 8 - 17
+Anteater Quidditch QC10 10 - 17
+Anteater Quidditch QC9 1 - 17
+Anteater Quidditch WC8 1 - 11
