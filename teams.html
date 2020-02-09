@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
 		Teams | US Quidditch	</title>
-	<link rel="icon" type="image/x-icon"  href="/img/favicon.ico">	
+	<link rel="icon" type="image/x-icon"  href="/img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,700" /><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic" /><link rel="stylesheet" type="text/css" href="/js/fancybox/source/jquery.fancybox.css" /><link rel="stylesheet" type="text/css" href="/js/fullcalendar/fullcalendar.css" /><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1" /><link rel="stylesheet" type="text/css" href="/css/cakegrid.css" /><link rel="stylesheet" type="text/css" href="/css/spinner.css" /><link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" /><link rel="stylesheet" type="text/css" href="/js/jqgrid/css/ui.jqgrid.css" /><script type="text/javascript" src="//kit.fontawesome.com/0077114b49.js"></script><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script><script type="text/javascript" src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script><script type="text/javascript" src="/js/jquery.jscroll.min.js"></script><script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script><script type="text/javascript" src="/js/fullcalendar/fullcalendar.min.js"></script><script type="text/javascript" src="/js/fancybox/source/jquery.fancybox.js"></script><script type="text/javascript" src="/js/jqgrid/i18n/grid.locale-en.js"></script><script type="text/javascript" src="/js/jqgrid/jquery.jqGrid.src.js"></script><script type="text/javascript" src="/js/custom.js"></script></head>
 <body>
 	<div id="container">
@@ -236,16 +236,16 @@
 					<a href="/about/donate-to-us-quidditch">Donate</a>
 									</li>
 					</ul>
-			
-	</div>	
+
+	</div>
 
 </div>
 		<div id="map_canvas" style="width: 100%; height: 450px; margin-left:auto; margin-right:auto;"></div>
 
 		<div id="content-wrapper">
 
-			
-			<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyBXbqLYTfvB5k1O5MlOv_WHp5gP-cT09VY"></script>
+
+			<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=KEY_REMOVED_BY_REQUEST"></script>
 <div id="content">
 	<h2>Teams</h2>
 	<p>The map above will fill up as teams register for the current season. Want to be listed here? Non-member teams and youth teams are encouraged to join our teams directory. To sign your team up for this free resource, please follow the steps below:</p>
@@ -269,7 +269,7 @@
 		<input type="checkbox" class="filter" value=5>South<br/>
 		<input type="checkbox" class="filter" value=6>Southwest<br/>
 		<input type="checkbox" class="filter" value=4>West
-		
+
 	</p>
 	<p><br/>Note: All team locations on the map are pinned at the geographic center of their zipcode</p>
 
@@ -278,7 +278,7 @@
 		<input type="checkbox" class="team_status" value='paid'>Official Team<br/>
 		<input type="checkbox" class="team_status" value='free'>Unofficial Team
 	</p>
-	
+
 	<p><i>By Division</i></p>
 	<p>
 		<input type="checkbox" class="team_type" value='College'>College Team<br/>
@@ -297,7 +297,7 @@ var myOptions = {
     zoom: 3,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP
-}; 
+};
 var geocoder = new google.maps.Geocoder();
 var infowindow = new google.maps.InfoWindow();
 var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
@@ -310,9 +310,9 @@ for(var i=0; i<teams.length;i++){
                 title: teams[i]['Team']['name'],
 		clickable: true
 	});
-	google.maps.event.addListener(teams[i]['Team']['marker'], 'mouseover',function() { 
+	google.maps.event.addListener(teams[i]['Team']['marker'], 'mouseover',function() {
 		infowindow.setContent(this.title);
-		infowindow.open(map,this); 
+		infowindow.open(map,this);
 	});
 }
 
@@ -431,7 +431,7 @@ function refreshInfo() {
 	newurl+="</table>";
 	$('#teams_list').html(newurl);
         $('#teams_list').fadeIn();
-	$('#teams_list tr').mouseover(function() { 
+	$('#teams_list tr').mouseover(function() {
 		teams[$(this).attr('id').substring(1)]['Team']['marker'].setAnimation(google.maps.Animation.BOUNCE);
 	});
 	$('#teams_list tr').mouseout(function() {
@@ -448,7 +448,7 @@ function refreshInfo() {
 });
 </script>
 				</div>
-		
+
 		</div>
 
         <div id="footer_wrapper">
